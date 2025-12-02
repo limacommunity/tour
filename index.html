@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lima Community Church Virtual Tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrance-from-diller-road">
+        <li class="text">Entrance from Diller Road</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-entrance-on-cole-from-north">
+        <li class="text">Entrance on Cole from North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-entrance-from-lima-on-cole-st">
+        <li class="text">Entrance from Lima on Cole St</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-parking-lot---west">
+        <li class="text">Parking Lot - West</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-parking-lot---east">
+        <li class="text">Parking Lot - East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-lobby">
+        <li class="text">Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-sanctuary-center-aisle">
+        <li class="text">Sanctuary-Center Aisle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-sanctuary-east-aisle">
+        <li class="text">Sanctuary-East Aisle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-sanctuary-west-aisle">
+        <li class="text">Sanctuary-West Aisle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-welcome-center-in-lobby">
+        <li class="text">Welcome Center in Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-cafe">
+        <li class="text">Cafe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-first-time-families">
+        <li class="text">First Time Families</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-birth-to-13-months-entrance">
+        <li class="text">Birth to 13 months Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-birth-to-13-months-room">
+        <li class="text">Birth to 13 months Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-13-24-months-entrance">
+        <li class="text">13-24 months Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-13-24-months-room">
+        <li class="text">13-24 months Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-2-years-old-entrance">
+        <li class="text">2 years old Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-2-years-old-room">
+        <li class="text">2 years old Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-3-years-old-entrance">
+        <li class="text">3 years old Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-3-years-old-room">
+        <li class="text">3 years old Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-tinytown-story-room">
+        <li class="text">tinytown Story Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-4-yrs-old-kindergarten-entrance">
+        <li class="text">4 yrs old-Kindergarten Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-4-yrs-old-kindergarten-worship">
+        <li class="text">4 yrs old-Kindergarten Worship</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-1st-to-5th-grade">
+        <li class="text">1st to 5th Grade</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
