@@ -66,7 +66,7 @@
       mouseViewMode: data.settings.mouseViewMode
     }
   };
-
+/*
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
@@ -106,6 +106,8 @@
       view: view
     };
   });
+
+*/
 
   // Set up autorotate, if enabled.
   var autorotate = Marzipano.autorotate({
