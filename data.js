@@ -132,7 +132,7 @@ var APP_DATA = {
     },
     {
 	  type: 'group',
-	  id: 'Parking Lot',
+	  id: 'parking-lot',
           name: 'Parking Lot',
 		  collapsed: true,
 		  scenes: [
@@ -219,308 +219,317 @@ var APP_DATA = {
 			  infoHotspots: []
 			},
     {
-      "id": "5-lobby",
-      "name": "Lobby",
-      "levels": [
+      type: 'scene',
+	  id: '5-lobby',
+      name": 'Lobby',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": -0.3552583386173467,
-        "pitch": -0.004757699562494722,
-        "fov": 1.5091423593016802
+      faceSize: 1472,
+      initialViewParameters: {
+        yaw: -0.3552583386173467,
+        pitch: -0.004757699562494722,
+        fov: 1.5091423593016802
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.06447816823025043,
-          "pitch": 0.18902377382448776,
-          "rotation": 6.283185307179586,
-          "target": "6-sanctuary-center-aisle"
+          yaw: -0.06447816823025043,
+          pitch: 0.18902377382448776,
+          rotation: 6.283185307179586,
+          target: '6-sanctuary-center-aisle'
         },
         {
-          "yaw": 0.651799063766461,
-          "pitch": 0.2619258612067945,
-          "rotation": 1.5707963267948966,
-          "target": "10-cafe"
+          yaw: 0.651799063766461,
+          pitch: 0.2619258612067945,
+          rotation: 1.5707963267948966,
+          target: '10-cafe'
         },
         {
-          "yaw": 0.44945525231788963,
-          "pitch": 0.22092955133881986,
-          "rotation": 0.7853981633974483,
-          "target": "11-first-time-families"
+          yaw: 0.44945525231788963,
+          pitch: 0.22092955133881986,
+          rotation: 0.7853981633974483,
+          target: '11-first-time-families'
         },
         {
-          "yaw": -0.9676649681284601,
-          "pitch": 0.44161605610973353,
-          "rotation": 4.71238898038469,
-          "target": "9-welcome-center-in-lobby"
+          yaw: -0.9676649681284601,
+          pitch: 0.44161605610973353,
+          rotation: 4.71238898038469,
+          target: '9-welcome-center-in-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "6-sanctuary-center-aisle",
-      "name": "Sanctuary-Center Aisle",
-      "levels": [
+	  type: 'group',
+	  id: 'sanctuary',
+          name: 'Sanctuary',
+		  collapsed: true,
+		  scenes: [	
+			id: '6-sanctuary-center-aisle',
+			name: 'Sanctuary-Center Aisle',
+			levels: [
+			  {
+				tileSize: 256,
+				size: 256,
+				fallbackOnly: true
+			  },
+			  {
+				tileSize: 512,
+				size: 512
+			  },
+			  {
+				tileSize: 512,
+				size: 1024
+			  },
+			  {
+				tileSize: 512,
+				size: 2048
+			  }
+			],
+			faceSize: 1472,
+			initialViewParameters: {
+			  yaw: 0,
+			  pitch: 0,
+			  fov: 1.5091423593016802
+			},
+			linkHotspots: [
+			  {
+				yaw: 0.5068735603474401,
+				pitch: 0.5,
+				rotation: 1.5707963267948966,
+				target: '7-sanctuary-east-aisle'
+			  },
+			  {
+				yaw: -0.612231584915083,
+				pitch: 0.5,
+				rotation: 4.71238898038469,
+				target: '8-sanctuary-west-aisle'
+			  },
+			  {
+				yaw: -0.07046259676734046,
+				pitch: 0.5,
+				rotation: 3.141592653589793,
+				target: "9-welcome-center-in-lobby"
+			  }
+			],
+			infoHotspots: [
+			  {
+				yaw: 0.24275725435109408,
+				pitch: 0.40,
+				title: 'Sermons',
+				text: 'Sermons Link'"
+			  },
+			  {
+				yaw: -0.37928584185309333,
+				pitch: 0.40,
+				title: 'Worship Set',
+				text: 'Worship Set Link'
+			  }
+			]
+		},
+		{
+		  id: '7-sanctuary-east-aisle',
+		  name: 'Sanctuary-East Aisle',
+		  levels: [
+			{
+			  tileSize: 256,
+			  size: 256,
+			  fallbackOnly: true
+			},
+			{
+			  tileSize: 512,
+			  size: 512
+			},
+			{
+			  tileSize: 512,
+			  size: 1024
+			},
+			{
+			  tileSize: 512,
+			  size: 2048
+			}
+		  ],
+		  faceSize: 1472,
+		  initialViewParameters: {
+			pitch: 0,
+			yaw: 0,
+			fov: 1.5707963267948966
+		  },
+		  linkHotspots: [
+			{
+			  yaw: 0.33888703125552055,
+			  pitch: 0.4,
+			  rotation: 3.141592653589793,
+			  target: '9-welcome-center-in-lobby'
+			},
+			{
+			  yaw: 0.06709510384582273,
+			  pitch: 0.4,
+			  rotation: 4.71238898038469,
+			  target: '6-sanctuary-center-aisle'
+			}
+		  ],
+		  infoHotspots: []
+		},
+		{
+		  id: '8-sanctuary-west-aisle',
+		  name: 'Sanctuary-West Aisle',
+		  levels: [
+			{
+			  tileSize: 256,
+			  size: 256,
+			  fallbackOnly: true
+			},
+			{
+			  tileSize: 512,
+			  size: 512
+			},
+			{
+			  tileSize: 512,
+			  size: 1024
+			},
+			{
+			  tileSize: 512,
+			  size: 2048
+			}
+		  ],
+		  faceSize: 1472,
+		  initialViewParameters: {
+		    pitch: 0,
+            yaw: 0,
+            fov: 1.5707963267948966
+		  },
+		  linkHotspots: [
+			{
+			  yaw: 0.5612981689270633,
+			  pitch: .4,
+			  rotation: 1.5707963267948966,
+			  target: '6-sanctuary-center-aisle'
+			},
+			{
+			  yaw: -0.5018302878366399,
+			  pitch: .4,
+			  rotation: 3.141592653589793,
+			  target: '9-welcome-center-in-lobby'
+			}
+		  ],
+		  infoHotspots: []
+		},
+    {
+      type: 'scene',
+	  id: '9-welcome-center-in-lobby',
+      name: 'Welcome Center in Lobby',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": 0,
-        "pitch": 0,
-        "fov": 1.5091423593016802
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [],
+      infoHotspots: [
         {
-          "yaw": 0.5068735603474401,
-          "pitch": 0.5,
-          "rotation": 1.5707963267948966,
-          "target": "7-sanctuary-east-aisle"
+          yaw: -0.2963884834480144,
+          pitch: 0.327619420624476,
+          title: "Welcome Center",
+          text: "Welcome Center Link"
         },
         {
-          "yaw": -0.612231584915083,
-          "pitch": 0.5,
-          "rotation": 4.71238898038469,
-          "target": "8-sanctuary-west-aisle"
+          yaw: -1.0838860443110185,
+          pitch: 0.3557724435258258,
+          title: 'AXIS',
+          text: 'AXIS Link'
         },
         {
-          "yaw": -0.07046259676734046,
-          "pitch": 0.5,
-          "rotation": 3.141592653589793,
-          "target": "9-welcome-center-in-lobby"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.24275725435109408,
-          "pitch": 0.40,
-          "title": "Sermons",
-          "text": "Sermons Link"
-        },
-        {
-          "yaw": -0.37928584185309333,
-          "pitch": 0.40,
-          "title": "Worship Set",
-          "text": "Worship Set Link"
+          yaw: -1.1319906678317029,
+          pitch: 0.49075182074692947,
+          title: "Journey Building",
+          text: "Journey Buildling Link"
         }
       ]
     },
     {
-      "id": "7-sanctuary-east-aisle",
-      "name": "Sanctuary-East Aisle",
-      "levels": [
+	  type: 'scene',
+      id: '10-cafe',
+      name: 'Cafe',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.33888703125552055,
-          "pitch": 0.4,
-          "rotation": 3.141592653589793,
-          "target": "9-welcome-center-in-lobby"
+          yaw: -0.09167924145870998,
+          pitch: 0.6713541673323533,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         },
         {
-          "yaw": 0.06709510384582273,
-          "pitch": 0.4,
-          "rotation": 4.71238898038469,
-          "target": "6-sanctuary-center-aisle"
+          yaw: -0.8591814616350266,
+          pitch: 0.37963719085212944,
+          rotation: 4.71238898038469,
+          target: '11-first-time-families'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "8-sanctuary-west-aisle",
-      "name": "Sanctuary-West Aisle",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.5612981689270633,
-          "pitch": .4,
-          "rotation": 1.5707963267948966,
-          "target": "6-sanctuary-center-aisle"
-        },
-        {
-          "yaw": -0.5018302878366399,
-          "pitch": .4,
-          "rotation": 3.141592653589793,
-          "target": "9-welcome-center-in-lobby"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-welcome-center-in-lobby",
-      "name": "Welcome Center in Lobby",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": -0.2963884834480144,
-          "pitch": 0.327619420624476,
-          "title": "Welcome Center",
-          "text": "Welcome Center Link"
-        },
-        {
-          "yaw": -1.0838860443110185,
-          "pitch": 0.3557724435258258,
-          "title": "AXIS",
-          "text": "AXIS Link"
-        },
-        {
-          "yaw": -1.1319906678317029,
-          "pitch": 0.49075182074692947,
-          "title": "Journey Building",
-          "text": "Journey Buildling Link"
-        }
-      ]
-    },
-    {
-      "id": "10-cafe",
-      "name": "Cafe",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.09167924145870998,
-          "pitch": 0.6713541673323533,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
-        },
-        {
-          "yaw": -0.8591814616350266,
-          "pitch": 0.37963719085212944,
-          "rotation": 4.71238898038469,
-          "target": "11-first-time-families"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-first-time-families",
+	  type: 'scene',
+      id: '11-first-time-families',
       "name": "First Time Families",
       "levels": [
         {
