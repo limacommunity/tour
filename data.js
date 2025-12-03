@@ -614,13 +614,13 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.18602230309320866,
-          "pitch": 0.35922222452292907,
+          "pitch": 0.5,
           "rotation": 0,
           "target": "13-birth-to-13-months-room"
         },
         {
           "yaw": 0.18167654413713308,
-          "pitch": 0.6763108507634126,
+          "pitch": 0.8,
           "rotation": 9.42477796076938,
           "target": "5-lobby"
         }
@@ -658,7 +658,7 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.07615443792198207,
-          "pitch": 0.6573103943168075,
+          "pitch": 0.8,
           "rotation": 3.141592653589793,
           "target": "5-lobby"
         }
@@ -696,13 +696,13 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.4627216723215657,
-          "pitch": 0.37947363500234665,
+          "pitch": 0.5,
           "rotation": 0,
           "target": "15-13-24-months-room"
         },
         {
           "yaw": 0.459757754910072,
-          "pitch": 0.6935894517174663,
+          "pitch": 0.8,
           "rotation": 3.141592653589793,
           "target": "5-lobby"
         }
