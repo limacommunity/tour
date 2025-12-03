@@ -221,6 +221,7 @@ var projectData = {
 			  infoHotspots: []
 			},
 		]
+	},
     {
       type: 'scene',
 	  id: '5-lobby',
@@ -1013,20 +1014,20 @@ var projectData = {
           target: '18-3-years-old-entrance'
         }
         ],
-		
       infoHotspots: []
-	  
+	 
 	  },
 	  
 	  ]
     },
-    
+	
+    {
 	 type: 'group',
 	  id: '4-yrs-old-kindergarten',
           name: '4 yrs old - Kindergarten (upTOWN)',
 		  collapsed: true,
 		  scenes: [
-    {
+    
       id: '21-4-yrs-old-kindergarten-entrance',
       name: '4 yrs old-Kindergarten Entrance',
       levels: [
