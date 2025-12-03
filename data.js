@@ -129,8 +129,9 @@ var projectData = {
           }
 		],
 		infoHotspots: []
-		]
-    },
+		},	
+	  ]
+    }, 
     {
 	  type: 'group',
 	  id: 'parking-lot',
@@ -219,6 +220,7 @@ var projectData = {
 			  ],
 			  infoHotspots: []
 			},
+		]
     {
       type: 'scene',
 	  id: '5-lobby',
@@ -432,8 +434,9 @@ var projectData = {
 			}
 		  ],
 		  infoHotspots: []
-		  ]
 		},
+	  ]
+	},
     {
       type: 'scene',
 	  id: '9-welcome-center-in-lobby',
@@ -864,7 +867,7 @@ var projectData = {
           pitch: 0.6804217863605171,
           rotation: 3.141592653589793,
           target: '16-2-years-old-entrance'
-        }
+        },
       ],
       infoHotspots: []
     },
@@ -1009,10 +1012,15 @@ var projectData = {
           rotation: 6.283185307179586,
           target: '18-3-years-old-entrance'
         }
-      ],
+        ],
+		
       infoHotspots: []
+	  
+	  },
+	  
 	  ]
     },
+    
 	 type: 'group',
 	  id: '4-yrs-old-kindergarten',
           name: '4 yrs old - Kindergarten (upTOWN)',
@@ -1107,6 +1115,7 @@ var projectData = {
       infoHotspots: []
 	  ]
     },
+},
     {
       id: '23-1st-to-5th-grade,
       name: '1st to 5th Grade',
