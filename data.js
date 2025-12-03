@@ -225,7 +225,7 @@ var projectData = {
     {
       type: 'scene',
 	  id: '5-lobby',
-      name": 'Lobby',
+      name: 'Lobby',
       levels: [
         {
           tileSize: 256,
