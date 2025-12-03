@@ -396,13 +396,13 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.5612981689270633,
-          "pitch": 0.6042965393216608,
+          "pitch": .4,
           "rotation": 1.5707963267948966,
           "target": "6-sanctuary-center-aisle"
         },
         {
           "yaw": -0.5018302878366399,
-          "pitch": 0.6138369847739469,
+          "pitch": .4,
           "rotation": 3.141592653589793,
           "target": "9-welcome-center-in-lobby"
         }
