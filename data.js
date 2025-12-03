@@ -1,207 +1,223 @@
 var APP_DATA = {
-  "scenes": [
-    {
-      "id": "0-entrance-from-diller-road",
-      "name": "Entrance from Diller Road",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.1674151584072341,
-          "pitch": 0.5574007651195245,
-          "rotation": 1.5707963267948966,
-          "target": "3-parking-lot---west"
-        },
-        {
-          "yaw": 1.6948440686584476,
-          "pitch": 0.4095769775596487,
-          "rotation": 0,
-          "target": "3-parking-lot---west"
-        }
-      ],
-      "infoHotspots": []
+	// Default background music (loops continuously)
+  defaultMusic: 'assets/Stream-Music-Christmas-2023.mp3',
+  
+  // Menu structure - mix standalone scenes and accordion groups
+  menu: [
+  {
+      type: 'group',
+	  id: 'street-entrances',
+          name: 'Street Entrances',
+		  collapsed: true,
+		  scenes: [
+            {
+			  id: '0-entrance-from-diller-road',
+			  name: 'Entrance from Diller Road',
+			  levels: [
+				{
+				  tileSize: 256,
+				  size: 256,
+				  fallbackOnly: true
+				},
+				{
+				  tileSize: 512,
+				  size: 512
+				},
+				{
+				  tileSize: 512,
+				  size: 1024
+				},
+				{
+				  tileSize: 512,
+				  size: 2048
+				}
+			  ],
+			    faceSize: 1472,
+			    initialViewParameters: {
+				  pitch: 0,
+				  yaw: 0,
+				  fov: 1.5707963267948966
+				},
+				linkHotspots: [
+				  {
+				    yaw: -0.1674151584072341,
+					pitch: 0.5574007651195245,
+					rotation: 1.5707963267948966,
+					target: '3-parking-lot---west'
+				  },
+				  {
+				  yaw: 1.6948440686584476,
+				  pitch: 0.4095769775596487,
+				  rotation: 0,
+				  target: '3-parking-lot---west'
+				  }
+				],
+			infoHotspots: []
+		},
+		{
+		  id: '1-entrance-on-cole-from-north',
+		  name: 'Entrance on Cole from North',
+			levels: [
+			  {
+				tileSize: 256,
+				size: 256,
+				fallbackOnly: true
+			  },
+			  {
+			    tileSize: 512,
+				size: 512
+			  },
+			  {
+				tileSize: 512,
+				size: 1024
+			  },
+			  {
+				tileSize: 512,
+				size: 2048
+			  }
+			],
+			  faceSize: 1472,
+			  initialViewParameters: {
+				yaw: -0.10766285731732239,
+				pitch: -0.030925047156229013,
+				fov: 1.5091423593016802
+			  },
+				linkHotspots: [
+				  {
+					yaw: -0.28359336809684876,
+					pitch: 0.027916561278299667,
+					rotation: 1.5707963267948966,
+					target: '4-parking-lot---east'
+				  }
+				],
+				infoHotspots: []
+		},
+		{
+		  id: '2-entrance-from-lima-on-cole-st',
+		  name: 'Entrance from Lima on Cole St',
+		  levels: [
+			{
+			  tileSize: 256,
+			  size: 256,
+			  fallbackOnly: true
+			},
+			{	
+			  tileSize: 512,
+			  size: 512
+			},
+			{
+			  tileSize: 512,
+			  size: 1024
+			},
+			{
+			  tileSize: 512,
+			  size: 2048
+			}
+		  ],
+		faceSize: 1472,
+		initialViewParameters: {
+          pitch: 0,
+		  yaw: 0,
+          fov: 1.5707963267948966
+		},
+		linkHotspots: [
+          {
+            yaw: 0.24032052521222624,
+            pitch: 0.25324350204677337,
+            rotation: 4.71238898038469,
+            target: '4-parking-lot---east'
+          }
+		],
+		infoHotspots: []
     },
     {
-      "id": "1-entrance-on-cole-from-north",
-      "name": "Entrance on Cole from North",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": -0.10766285731732239,
-        "pitch": -0.030925047156229013,
-        "fov": 1.5091423593016802
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.28359336809684876,
-          "pitch": 0.027916561278299667,
-          "rotation": 1.5707963267948966,
-          "target": "4-parking-lot---east"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-entrance-from-lima-on-cole-st",
-      "name": "Entrance from Lima on Cole St",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.24032052521222624,
-          "pitch": 0.25324350204677337,
-          "rotation": 4.71238898038469,
-          "target": "4-parking-lot---east"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-parking-lot---west",
-      "name": "Parking Lot - West",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": -0.08406871103632518,
-        "pitch": -0.1482326161624119,
-        "fov": 1.5091423593016802
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.24326155404453687,
-          "pitch": 0.10149321406764145,
-          "rotation": 0,
-          "target": "5-lobby"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-parking-lot---east",
-      "name": "Parking Lot - East",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.12630851856902048,
-          "pitch": 0.07341815212632063,
-          "rotation": 0,
-          "target": "5-lobby"
-        },
-        {
-          "yaw": 0.7108631203903251,
-          "pitch": 0.06959253438942348,
-          "rotation": 5.497787143782138,
-          "target": "5-lobby"
-        }
-      ],
-      "infoHotspots": []
-    },
+	  type: 'group',
+	  id: 'Parking Lot',
+          name: 'Parking Lot',
+		  collapsed: true,
+		  scenes: [
+			{
+			  id: '3-parking-lot---west',
+			  name: 'Parking Lot - West',
+			  levels: [
+				{
+				  tileSize: 256,
+				  size: 256,
+				  fallbackOnly: true
+				},
+				{
+				  tileSize: 512,
+				  size: 512
+				},
+				{
+				  tileSize: 512,
+				  size: 1024
+				},
+				{
+				  tileSize: 512,
+				  size: 2048
+				}
+			  ],
+			  faceSize: 1472,
+			  initialViewParameters: {
+				yaw: -0.08406871103632518,
+				pitch: -0.1482326161624119,
+				fov: 1.5091423593016802
+			  },
+			  linkHotspots: [
+				{
+				  yaw: -0.24326155404453687,
+				  pitch: 0.10149321406764145,
+				  rotation: 0,
+				  target: '5-lobby'
+				}
+			  ],
+			  infoHotspots: []
+			},
+			{	
+			  id: '4-parking-lot---east',
+			  name: 'Parking Lot - East',
+			  levels: [
+				{
+				  tileSize: 256,
+				  size: 256,
+				  fallbackOnly: true
+				},
+				{
+				  tileSize: 512,
+				  size: 512
+				},
+				{
+				  tileSize: 512,
+				  size: 1024
+				},
+				{
+				  tileSize: 512,
+				  size: 2048
+				}
+			  ],
+			  faceSize: 1472,
+			  initialViewParameters: {
+			    pitch: 0,
+			    yaw: 0,
+			    fov: 1.5707963267948966
+			  },
+			  linkHotspots: [
+				{
+				  yaw: -0.12630851856902048,
+				  pitch: 0.07341815212632063,
+				  rotation: 0,
+				  target: '5-lobby'
+				},
+				{
+				  yaw: 0.7108631203903251,
+				  pitch: 0.06959253438942348,
+				  rotation: 5.497787143782138,
+				  target: '5-lobby'
+				}
+			  ],
+			  infoHotspots: []
+			},
     {
       "id": "5-lobby",
       "name": "Lobby",
