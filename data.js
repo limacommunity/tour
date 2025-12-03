@@ -1030,7 +1030,7 @@ var projectData = {
           name: '4 yrs old - Kindergarten (upTOWN)',
 		  collapsed: true,
 		  scenes: [
-    
+		  {
       id: '21-4-yrs-old-kindergarten-entrance',
       name: '4 yrs old-Kindergarten Entrance',
       levels: [
