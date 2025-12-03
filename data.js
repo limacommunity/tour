@@ -129,6 +129,7 @@ var APP_DATA = {
           }
 		],
 		infoHotspots: []
+		]
     },
     {
 	  type: 'group',
@@ -274,6 +275,7 @@ var APP_DATA = {
         }
       ],
       infoHotspots: []
+	  ]
     },
     {
 	  type: 'group',
@@ -430,6 +432,7 @@ var APP_DATA = {
 			}
 		  ],
 		  infoHotspots: []
+		  ]
 		},
     {
       type: 'scene',
@@ -530,618 +533,630 @@ var APP_DATA = {
     {
 	  type: 'scene',
       id: '11-first-time-families',
-      "name": "First Time Families",
-      "levels": [
+      name: 'First Time Families',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.7343522513384961,
-          "pitch": 0.5747734178412909,
-          "rotation": 1.5707963267948966,
-          "target": "23-1st-to-5th-grade"
+          yaw: 0.7343522513384961,
+          pitch: 0.5747734178412909,
+          rotation: 1.5707963267948966,
+          target: '23-1st-to-5th-grade'
         },
         {
-          "yaw": 1.7406199057703446,
-          "pitch": 0.4,
-          "rotation": 5.497787143782138,
-          "target": "23-1st-to-5th-grade"
+          yaw: 1.7406199057703446,
+          pitch: 0.4,
+          rotation: 5.497787143782138,
+          target: '23-1st-to-5th-grade'
         },
         {
-          "yaw": -0.7695957448460451,
-          "pitch": -0.09899634998908091,
-          "rotation": 0,
-          "target": "12-birth-to-13-months-entrance"
+          yaw: -0.7695957448460451,
+          pitch: -0.09899634998908091,
+          rotation: 0,
+          target: '12-birth-to-13-months-entrance'
         },
         {
-          "yaw": -0.7712869200224155,
-          "pitch": 0.024150179655606507,
-          "rotation": 0,
-          "target": "14-13-24-months-entrance"
+          yaw: -0.7712869200224155,
+          pitch: 0.024150179655606507,
+          rotation: 0,
+          target: '14-13-24-months-entrance'
         },
         {
-          "yaw": -0.7712862790183355,
-          "pitch": 0.27185854801551557,
-          "rotation": 0,
-          "target": "18-3-years-old-entrance"
+          yaw: -0.7712862790183355,
+          pitch: 0.27185854801551557,
+          rotation: 0,
+          target: '18-3-years-old-entrance'
         },
         {
-          "yaw": -0.7699861110701836,
-          "pitch": 0.3888643231739355,
-          "rotation": 0,
-          "target": "21-4-yrs-old-kindergarten-entrance"
+          yaw: -0.7699861110701836,
+          pitch: 0.3888643231739355,
+          rotation: 0,
+          target: '21-4-yrs-old-kindergarten-entrance'
         },
         {
-          "yaw": -0.7701449573370951,
-          "pitch": 0.14944276345787877,
-          "rotation": 0,
-          "target": "16-2-years-old-entrance"
+          yaw: -0.7701449573370951,
+          pitch: 0.14944276345787877,
+          rotation: 0,
+          target: '16-2-years-old-entrance'
         },
         {
-          "yaw": -0.024431392644640226,
-          "pitch": 0.4,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: -0.024431392644640226,
+          pitch: 0.4,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "12-birth-to-13-months-entrance",
-      "name": "Birth to 13 months Entrance",
-      "levels": [
+	  type: 'group',
+	  id: 'birth-to-48-months',
+          name: 'Birth to 48 months (tinytown)',
+		  collapsed: true,
+		  scenes: [	
+      id: '12-birth-to-13-months-entrance',
+      name: 'Birth to 13 months Entrance',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.18602230309320866,
-          "pitch": 0.1,
-          "rotation": 0,
-          "target": "13-birth-to-13-months-room"
+          yaw: 0.18602230309320866,
+          pitch: 0.1,
+          rotation: 0,
+          target: '13-birth-to-13-months-room'
         },
         {
-          "yaw": 0.18167654413713308,
-          "pitch": 0.4,
-          "rotation": 9.42477796076938,
-          "target": "5-lobby"
+          yaw: 0.18167654413713308,
+          pitch: 0.4,
+          rotation: 9.42477796076938,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "13-birth-to-13-months-room",
-      "name": "Birth to 13 months Room",
-      "levels": [
+      id: '13-birth-to-13-months-room',
+      name: 'Birth to 13 months Room',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.07615443792198207,
-          "pitch": 0.4,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: 0.07615443792198207,
+          pitch: 0.4,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "14-13-24-months-entrance",
-      "name": "13-24 months Entrance",
-      "levels": [
+      id: '14-13-24-months-entrance',
+      name: '13-24 months Entrance',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.4627216723215657,
-          "pitch": 0.2,
-          "rotation": 0,
-          "target": "15-13-24-months-room"
+          yaw: 0.4627216723215657,
+          pitch: 0.2,
+          rotation: 0,
+          target: '15-13-24-months-room'
         },
         {
-          "yaw": 0.459757754910072,
-          "pitch": 0.5,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: 0.459757754910072,
+          pitch: 0.5,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "15-13-24-months-room",
-      "name": "13-24 months Room",
-      "levels": [
+      id: '15-13-24-months-room,
+      name: '13-24 months Room',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.038548629469383755,
-          "pitch": 0.6751850322993818,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: 0.038548629469383755,
+          pitch: 0.6751850322993818,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "16-2-years-old-entrance",
-      "name": "2 years old Entrance",
-      "levels": [
+      id: '16-2-years-old-entrance',
+      name: '2 years old Entrance',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.04665178986332563,
-          "pitch": 0.25449819784684635,
-          "rotation": 1.5707963267948966,
-          "target": "17-2-years-old-room"
+          yaw: -0.04665178986332563,
+          pitch: 0.25449819784684635,
+          rotation: 1.5707963267948966,
+          target: '17-2-years-old-room'
         },
         {
-          "yaw": -0.043769957784906666,
-          "pitch": 0.6665469156402093,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: -0.043769957784906666,
+          pitch: 0.6665469156402093,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         },
         {
-          "yaw": -0.40817930391612833,
-          "pitch": 0.22612074977683605,
-          "rotation": 0,
-          "target": "20-tinytown-story-room"
+          yaw: -0.40817930391612833,
+          pitch: 0.22612074977683605,
+          rotation: 0,
+          target: '20-tinytown-story-room'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "17-2-years-old-room",
-      "name": "2 years old Room",
-      "levels": [
+      id: '17-2-years-old-room',
+      name: '2 years old Room',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.05321406069817591,
-          "pitch": 0.6804217863605171,
-          "rotation": 3.141592653589793,
-          "target": "16-2-years-old-entrance"
+          yaw: 0.05321406069817591,
+          pitch: 0.6804217863605171,
+          rotation: 3.141592653589793,
+          target: '16-2-years-old-entrance'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "18-3-years-old-entrance",
-      "name": "3 years old Entrance",
-      "levels": [
+      id: '18-3-years-old-entrance',
+      name: '3 years old Entrance',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.06323492552440158,
-          "pitch": 0.07387140382872914,
-          "rotation": 4.71238898038469,
-          "target": "19-3-years-old-room"
+          yaw: 0.06323492552440158,
+          pitch: 0.07387140382872914,
+          rotation: 4.71238898038469,
+          target: '19-3-years-old-room'
         },
         {
-          "yaw": 0.2663788279161299,
-          "pitch": 0.3763320268752093,
-          "rotation": 9.42477796076938,
-          "target": "5-lobby"
+          yaw: 0.2663788279161299,
+          pitch: 0.3763320268752093,
+          rotation: 9.42477796076938,
+          target: '5-lobby'
         },
         {
-          "yaw": 0.9298933654818295,
-          "pitch": 0.16496144259158285,
-          "rotation": 1.5707963267948966,
-          "target": "20-tinytown-story-room"
+          yaw: 0.9298933654818295,
+          pitch: 0.16496144259158285,
+          rotation: 1.5707963267948966,
+          target: '20-tinytown-story-room'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "19-3-years-old-room",
-      "name": "3 years old Room",
-      "levels": [
+      id: '19-3-years-old-room',
+      name: '3 years old Room',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.05111325267300515,
-          "pitch": 0.6744013875787029,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: -0.05111325267300515,
+          pitch: 0.6744013875787029,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         },
         {
-          "yaw": 0.33137662807807544,
-          "pitch": 0.6782678129439574,
-          "rotation": 3.141592653589793,
-          "target": "18-3-years-old-entrance"
+          yaw: 0.33137662807807544,
+          pitch: 0.6782678129439574,
+          rotation: 3.141592653589793,
+          target: '18-3-years-old-entrance'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
     },
     {
-      "id": "20-tinytown-story-room",
-      "name": "tinytown Story Room",
-      "levels": [
+      id: '20-tinytown-story-room',
+      name: 'tinytown Story Room',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.07007485794258983,
-          "pitch": 0.6926387284890243,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: -0.07007485794258983,
+          pitch: 0.6926387284890243,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         },
         {
-          "yaw": -0.8471556663314956,
-          "pitch": 0.43371522871209933,
-          "rotation": 4.71238898038469,
-          "target": "16-2-years-old-entrance"
+          yaw: -0.8471556663314956,
+          pitch: 0.43371522871209933,
+          rotation: 4.71238898038469,
+          target: '16-2-years-old-entrance'
         },
         {
-          "yaw": 0.4416576778078287,
-          "pitch": 0.23414078765906865,
-          "rotation": 6.283185307179586,
-          "target": "18-3-years-old-entrance"
+          yaw: 0.4416576778078287,
+          pitch: 0.23414078765906865,
+          rotation: 6.283185307179586,
+          target: '18-3-years-old-entrance'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
+	  ]
+    },
+	 type: 'group',
+	  id: '4-yrs-old-kindergarten',
+          name: '4 yrs old - Kindergarten (upTOWN)',
+		  collapsed: true,
+		  scenes: [
+    {
+      id: '21-4-yrs-old-kindergarten-entrance',
+      name: '4 yrs old-Kindergarten Entrance',
+      levels: [
+        {
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
+        },
+        {
+          timeSize: 512,
+          size: 512
+        },
+        {
+          timeSize: 512,
+          size: 1024
+        },
+        {
+          timeSize: 512,
+          size: 2048
+        }
+      ],
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
+      },
+      linkHotspots: [
+        {
+          yaw: 0.32274857071630514,
+          pitch: 0.20994364180122105,
+          rotation: 4.71238898038469,
+          target: '22-4-yrs-old-kindergarten-worship'
+        },
+        {
+          yaw: 0.33089307956692515,
+          pitch: 0.6759880036547301,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
+        }
+      ],
+      infoHotspots: []
     },
     {
-      "id": "21-4-yrs-old-kindergarten-entrance",
-      "name": "4 yrs old-Kindergarten Entrance",
-      "levels": [
+      id: '22-4-yrs-old-kindergarten-worship',
+      name: '4 yrs old-Kindergarten Worship',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 0.32274857071630514,
-          "pitch": 0.20994364180122105,
-          "rotation": 4.71238898038469,
-          "target": "22-4-yrs-old-kindergarten-worship"
+          yaw: -2.718963438715882,
+          pitch: 0.14408319351288057,
+          rotation: 7.0685834705770345,
+          target: '21-4-yrs-old-kindergarten-entrance'
         },
         {
-          "yaw": 0.33089307956692515,
-          "pitch": 0.6759880036547301,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: 0.06142026208763873,
+          pitch: 0.8050993927160093,
+          rotation: 3.141592653589793,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
+      infoHotspots: []
+	  ]
     },
     {
-      "id": "22-4-yrs-old-kindergarten-worship",
-      "name": "4 yrs old-Kindergarten Worship",
-      "levels": [
+      id: '23-1st-to-5th-grade,
+      name: '1st to 5th Grade',
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          timeSize: 256,
+          size: 256,
+          fallbackOnly: true
         },
         {
-          "tileSize": 512,
-          "size": 512
+          timeSize: 512,
+          size: 512
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          timeSize: 512,
+          size: 1024
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          timeSize: 512,
+          size: 2048
         }
       ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 1472,
+      initialViewParameters: {
+        yaw: -0.018471877937795256,
+        pitch: 0.015228872331249477,
+        fov: 1.5091423593016802
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -2.718963438715882,
-          "pitch": 0.14408319351288057,
-          "rotation": 7.0685834705770345,
-          "target": "21-4-yrs-old-kindergarten-entrance"
+          yaw: 1.4268580749166109,
+          pitch: 0.056401947054457224,
+          rotation: 4.71238898038469,
+          target: '5-lobby'
         },
         {
-          "yaw": 0.06142026208763873,
-          "pitch": 0.8050993927160093,
-          "rotation": 3.141592653589793,
-          "target": "5-lobby"
+          yaw: -0.048405714760523466,
+          pitch: 0.5796542936051452,
+          rotation: 9.42477796076938,
+          target: '5-lobby'
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "23-1st-to-5th-grade",
-      "name": "1st to 5th Grade",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": -0.018471877937795256,
-        "pitch": 0.015228872331249477,
-        "fov": 1.5091423593016802
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4268580749166109,
-          "pitch": 0.056401947054457224,
-          "rotation": 4.71238898038469,
-          "target": "5-lobby"
-        },
-        {
-          "yaw": -0.048405714760523466,
-          "pitch": 0.5796542936051452,
-          "rotation": 9.42477796076938,
-          "target": "5-lobby"
-        }
-      ],
-      "infoHotspots": []
+      infoHotspots: []
     }
   ],
-  "name": "Lima Community Church Virtual Tour",
-  "settings": {
-    "mouseViewMode": "drag",
-    "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+  name: 'Lima Community Church Virtual Tour',
+  settings: {
+    mouseViewMode: 'drag',
+    'autorotateEnabled': true,
+    'fullscreenButton': true,
+    'viewControlButtons': true
   }
 };
