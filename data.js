@@ -339,7 +339,7 @@ var projectData = {
 				yaw: 0.24275725435109408,
 				pitch: 0.40,
 				title: 'Sermons',
-				text: 'Sermons Link'"
+				text: 'Sermons Link'
 			  },
 			  {
 				yaw: -0.37928584185309333,
