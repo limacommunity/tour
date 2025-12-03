@@ -847,7 +847,11 @@
     
 	*/
 	
-	 // Create scenes from project data
+	// Marzipano setup
+    const panoElement = document.getElementById('pano');
+    const viewer = new Marzipano.Viewer(panoElement);
+	
+	// Create scenes from project data
     function createLevels(size) {
       return [{
         tileSize: 256,
