@@ -282,8 +282,8 @@ var APP_DATA = {
       ],
       "faceSize": 1472,
       "initialViewParameters": {
-        "yaw": -0.015962527916927982,
-        "pitch": 0.1950656820624026,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 1.5091423593016802
       },
       "linkHotspots": [
@@ -352,13 +352,13 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.33888703125552055,
-          "pitch": 0.6772702845792935,
+          "pitch": 0.4,
           "rotation": 3.141592653589793,
           "target": "9-welcome-center-in-lobby"
         },
         {
           "yaw": 0.06709510384582273,
-          "pitch": 0.6888535992322353,
+          "pitch": 0.4,
           "rotation": 4.71238898038469,
           "target": "6-sanctuary-center-aisle"
         }
