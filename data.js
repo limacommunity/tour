@@ -278,14 +278,15 @@ var projectData = {
         }
       ],
       infoHotspots: []
-	  ]
+	
     },
     {
 	  type: 'group',
 	  id: 'sanctuary',
-          name: 'Sanctuary',
-		  collapsed: true,
-		  scenes: [	
+      name: 'Sanctuary',
+	  collapsed: true,
+	  scenes: [	
+	    {
 			id: '6-sanctuary-center-aisle',
 			name: 'Sanctuary-Center Aisle',
 			levels: [
@@ -435,7 +436,7 @@ var projectData = {
 			}
 		  ],
 		  infoHotspots: []
-		},
+		}
 	  ]
 	},
     {
