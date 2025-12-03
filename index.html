@@ -847,10 +847,7 @@
     
 	*/
 	
-	// Marzipano setup
-    const panoElement = document.getElementById('pano');
-    const viewer = new Marzipano.Viewer(panoElement);
-	
+		
 	// Create scenes from project data
     function createLevels(size) {
       return [{
@@ -877,6 +874,9 @@
       });
     });
     
+	// Switch to first scene
+    scenesData[0].switchTo();
+	
     // Build accordion menu
     const sceneNav = document.getElementById('sceneNav');
     let sceneIndexCounter = 0;
