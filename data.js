@@ -622,6 +622,8 @@ var projectData = {
           name: 'Birth to 48 months (tinytown)',
 		  collapsed: true,
 		  scenes: [	
+		  {
+			  {
       id: '12-birth-to-13-months-entrance',
       name: 'Birth to 13 months Entrance',
       levels: [
