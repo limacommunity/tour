@@ -372,7 +372,7 @@
       });
     }
   }
-
+/*
   function findSceneById(id) {
     for (var i = 0; i < scenes.length; i++) {
       if (scenes[i].data.id === id) {
@@ -393,5 +393,5 @@
 
   // Display the initial scene.
   switchScene(scenes[0]);
-
+*/
 })();
