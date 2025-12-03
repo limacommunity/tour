@@ -1125,7 +1125,7 @@ var projectData = {
     {
 	  type: 'scene',
       id: '23-1st-to-5th-grade',
-      name: '1st to 5th Grade',
+      name: '1st to 5th Grade (DOWNTOWN)',
       levels [
         {
           timeSize: 256,
