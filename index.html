@@ -105,31 +105,218 @@
     .scene-nav {
       position: absolute;
       bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      gap: 10px;
+      left: 30px;
+      width: 280px;
       z-index: 1000;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+    }
+    
+    .scene-nav::-webkit-scrollbar {
+      width: 6px;
+    }
+    
+    .scene-nav::-webkit-scrollbar-track {
+      background: rgba(67, 67, 67, 0.3);
+      border-radius: 3px;
+    }
+    
+    .scene-nav::-webkit-scrollbar-thumb {
+      background: rgba(100, 100, 100, 0.6);
+      border-radius: 3px;
+    }
+    
+    .ungrouped-scenes {
+      margin-bottom: 10px;
+    }
+    
+    .group {
+      margin-bottom: 10px;
+      background: rgba(67, 67, 67, 0.8);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .group-header {
+      padding: 12px 15px;
+      background: rgba(67, 67, 67, 0.9);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.2s;
+      user-select: none;
+    }
+    
+    .group-header:hover {
+      background: rgba(80, 80, 80, 0.9);
+    }
+    
+    .group-header .arrow {
+      transition: transform 0.3s;
+      font-size: 12px;
+    }
+    
+    .group-header.collapsed .arrow {
+      transform: rotate(-90deg);
+    }
+    
+    .group-content {
+      max-height: 500px;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    
+    .group-content.collapsed {
+      max-height: 0;
     }
     
     .scene-button {
-      padding: 10px 20px;
-      background: rgba(67, 67, 67, 0.8);
+      width: 100%;
+      padding: 10px 15px;
+      background: rgba(50, 50, 50, 0.6);
       color: white;
       border: none;
-      border-radius: 20px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 13px;
       transition: background 0.2s;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .ungrouped-scenes .scene-button {
+      background: rgba(67, 67, 67, 0.8);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      border-bottom: none;
+    }
+    
+    .ungrouped-scenes .scene-button:hover {
+      background: rgba(80, 80, 80, 0.9);
+    }
+    
+    .group .scene-button:last-child {
+      border-bottom: none;
     }
     
     .scene-button:hover {
-      background: rgba(100, 100, 100, 0.9);
+      background: rgba(70, 70, 70, 0.8);
     }
     
     .scene-button.active {
       background: rgba(33, 150, 243, 0.9);
     }
+	 .scene-nav {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      width: 280px;
+      z-index: 1000;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+    }
+    
+    .scene-nav::-webkit-scrollbar {
+      width: 6px;
+    }
+    
+    .scene-nav::-webkit-scrollbar-track {
+      background: rgba(67, 67, 67, 0.3);
+      border-radius: 3px;
+    }
+    
+    .scene-nav::-webkit-scrollbar-thumb {
+      background: rgba(100, 100, 100, 0.6);
+      border-radius: 3px;
+    }
+    
+    .ungrouped-scenes {
+      margin-bottom: 10px;
+    }
+    
+    .group {
+      margin-bottom: 10px;
+      background: rgba(67, 67, 67, 0.8);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .group-header {
+      padding: 12px 15px;
+      background: rgba(67, 67, 67, 0.9);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.2s;
+      user-select: none;
+    }
+    
+    .group-header:hover {
+      background: rgba(80, 80, 80, 0.9);
+    }
+    
+    .group-header .arrow {
+      transition: transform 0.3s;
+      font-size: 12px;
+    }
+    
+    .group-header.collapsed .arrow {
+      transform: rotate(-90deg);
+    }
+    
+    .group-content {
+      max-height: 500px;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    
+    .group-content.collapsed {
+      max-height: 0;
+    }
+    
+    .scene-button {
+      width: 100%;
+      padding: 10px 15px;
+      background: rgba(50, 50, 50, 0.6);
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.2s;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .ungrouped-scenes .scene-button {
+      background: rgba(67, 67, 67, 0.8);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      border-bottom: none;
+    }
+    
+    .ungrouped-scenes .scene-button:hover {
+      background: rgba(80, 80, 80, 0.9);
+    }
+    
+    .group .scene-button:last-child {
+      border-bottom: none;
+    }
+    
+    .scene-button:hover {
+      background: rgba(70, 70, 70, 0.8);
+    }
+    
+    .scene-button.active {
+      background: rgba(33, 150, 243, 0.9);
+    }
+	
   </style>
 </head>
 <body class="multiple-scenes view-control-buttons">
@@ -157,7 +344,7 @@
       </div>
     </div>
 </div>
--->
+
 
 
 <div id="sceneList">
@@ -261,7 +448,7 @@
     
   </ul>
 </div>
-
+-->
 <div id="titleBar">
   <h1 class="sceneName"></h1>
 </div>
@@ -334,31 +521,165 @@
     // Setup
 	const projectData = {
       defaultMusic: 'assets/Stream-Music-Christmas-2023.mp3',
-      scenes: [
+     menu: [
         {
-          name: 'Scene 1',
+          type: 'group',
+          id: 'street-entrances',
+          name: 'Street Entrances',
+		  collapsed: true,
+		  scenes: [
+            {
+              id: '0-entrance-from-diller-road',
+              name: 'Entrance from Diller Road',
+              size: 2000,
+              color: '4A90E2'
+            },
+            {
+              id: '1-entrance-on-cole-from-north',
+              name: 'Entrance on Cole from North',
+              size: 2000,
+  //            color: '5BA3F5',
+  //            music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
+            },
+            {
+              id: '2-entrance-from-lima-on-cole-st',
+              name: 'Entrance from Lima on Cole St',
+              size: 2000,
+  //            color: '6BB6FF'
+            }
+          ]
           size: 2000,
-          color: '4A90E2'
-          // No music property means use default music
+  //        color: '9C27B0'
         },
         {
-          name: 'Scene 2',
-          size: 2000,
-          color: 'E24A4A',
-          music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
+          type: 'group',
+          id: 'parking-lot',
+          name: 'Parking Lot',
+          collapsed: true,
+          scenes: [
+            {
+              id: '3-parking-lot---west',
+              name: 'Parking Lot - West',
+              size: 2000,
+ //             color: '4A90E2'
+            },
+            {
+              id: '4-parking-lot---east',
+              name: 'Parking Lot - East',
+              size: 2000,
+//              color: '5BA3F5',
+//              music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
+            },
+           ]
         },
         {
-          name: 'Scene 3',
+          type: 'scene',
+          id: '5-lobby',
+          name: 'Lobby',
           size: 2000,
-          color: '4AE290'
-          // No music property means use default music
+ //         color: '795548'
+        },
+        {
+          type: 'group',
+          id: 'sanctuary',
+          name: 'Sanctuary',
+          collapsed: true,
+          scenes: [
+            {
+              id: '6-sanctuary-center-aisle',
+              name: 'Sanctuary - Center Aisle',
+              size: 2000,
+ //             color: 'E24A4A'
+            },
+            {
+              id: '7-sanctuary-east-aisle',
+              name: 'Sanctuary - East Aisle',
+              size: 2000,
+ //             color: 'F55B5B'
+            },
+			{
+              id: '8-sanctuary-west-aisle',
+              name: 'Sanctuary - West Aisle',
+              size: 2000,
+ //             color: 'F55B5B'
+            }
+          ]
+        },
+		{
+          type: 'scene',
+          id: '10-cafe',
+          name: 'Cafe',
+          size: 2000,
+ //         color: '795548'
+        },
+		{
+          type: 'scene',
+          id: '11-first-time-families',
+          name: 'First Time Families',
+          size: 2000,
+ //         color: '795548'
+        },
+        {
+          type: 'group',
+          id: 'birth-3-years-old',
+          name: 'Birth - 3 years ',
+          collapsed: true,
+          scenes: [
+            {
+              id: '12-birth-to-13-months-entrance',
+              name: 'Birth - 13 months',
+              size: 2000,
+ //             color: '4AE290'
+            },
+            {
+              id: '14-13-24-months-entrance',
+              name: '13-24 months',
+              size: 2000,
+ //             color: '5BF5A3'
+            },
+			{
+              id: '16-2-years-old-entrance',
+              name: '2 years old',
+              size: 2000,
+ //             color: '5BF5A3'
+            },
+			{
+              id: '18-3-years-old-entrance',
+              name: '3 years old',
+              size: 2000,
+ //             color: '5BF5A3'
+            }
+          ]
+        },
+        {
+          type: 'scene',
+          id: '21-4-yrs-old-kindergarten-entrance',
+          name: '4 yrs old - Kindergarten',
+          size: 2000,
+//          color: '607D8B'
+        },
+		{
+          type: 'scene',
+          id: '23-1st-to-5th-grade',
+          name: '1st - 5th Grade',
+          size: 2000,
+//          color: '607D8B'
         }
       ]
     };
 	
-	
-	
-	
+	// Flatten scenes for easy access
+    const allScenes = [];
+    
+    projectData.menu.forEach(item => {
+      if (item.type === 'scene') {
+        allScenes.push(item);
+      } else if (item.type === 'group') {
+        item.scenes.forEach(scene => {
+          allScenes.push(scene);
+        });
+      }
+    });
 	
 	// const defaultMusic = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'); 
 	const defaultMusic = new Audio('assets/Stream-Music-Christmas-2023.mp3');
@@ -368,13 +689,8 @@
     let sceneMusic = null;
     let isPlaying = false;
     let savedDefaultTime = 0;
-    
-    // Scene-specific music (optional overrides)
-    const sceneMusicUrls = {
-      1: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
-      // Add more scene-specific music: sceneIndex: 'url'
-    };
-    
+    let currentSceneIndex = 0;
+     
     // Play/Pause functionality
     const playPauseBtn = document.getElementById('playPauseBtn');
     const playIcon = document.getElementById('playIcon');
@@ -434,8 +750,10 @@
     
     // Scene music management
     function switchToSceneMusic(sceneIndex) {
+      const scene = allScenes[sceneIndex];
+      
       // If scene has custom music
-      if (sceneMusicUrls[sceneIndex]) {
+      if (scene.music) {
         // Save default music position and pause
         savedDefaultTime = defaultMusic.currentTime;
         defaultMusic.pause();
@@ -446,7 +764,7 @@
           sceneMusic = null;
         }
         
-        sceneMusic = new Audio(sceneMusicUrls[sceneIndex]);
+        sceneMusic = new Audio(scene.music);
         sceneMusic.volume = volumeRange.value / 100;
         
         sceneMusic.addEventListener('ended', () => {
@@ -524,6 +842,133 @@
     });
     
 	*/
+	
+	 // Create scenes from project data
+    function createLevels(size) {
+      return [{
+        tileSize: 256,
+        size: size,
+        fallbackOnly: true
+      }];
+    }
+    
+    const scenesData = allScenes.map((scene, index) => {
+      const geometry = new Marzipano.CubeGeometry(createLevels(scene.size));
+      
+      const source = new Marzipano.ImageUrlSource((tile) => {
+        return `https://via.placeholder.com/256/${scene.color}/ffffff?text=${scene.name}`;
+      });
+      
+      const view = new Marzipano.RectilinearView();
+      
+      return viewer.createScene({
+        source: source,
+        geometry: geometry,
+        view: view,
+        pinFirstLevel: true
+      });
+    });
+    
+    // Build accordion menu
+    const sceneNav = document.getElementById('sceneNav');
+    let sceneIndexCounter = 0;
+    
+    projectData.menu.forEach((item) => {
+      if (item.type === 'scene') {
+        // Create standalone scene button
+        const globalSceneIndex = sceneIndexCounter++;
+        const button = document.createElement('button');
+        button.className = 'scene-button';
+        button.style.marginBottom = '10px';
+        button.style.borderRadius = '8px';
+        button.style.background = 'rgba(67, 67, 67, 0.8)';
+        button.style.borderBottom = 'none';
+        button.textContent = item.name;
+        button.dataset.sceneIndex = globalSceneIndex;
+        button.dataset.sceneId = item.id;
+        
+        if (globalSceneIndex === 0) {
+          button.classList.add('active');
+        }
+        
+        button.addEventListener('click', () => {
+          scenesData[globalSceneIndex].switchTo();
+          switchToSceneMusic(globalSceneIndex);
+          currentSceneIndex = globalSceneIndex;
+          
+          document.querySelectorAll('.scene-button').forEach(btn => {
+            btn.classList.remove('active');
+          });
+          button.classList.add('active');
+        });
+        
+        button.addEventListener('mouseenter', () => {
+          button.style.background = 'rgba(80, 80, 80, 0.9)';
+        });
+        
+        button.addEventListener('mouseleave', () => {
+          if (!button.classList.contains('active')) {
+            button.style.background = 'rgba(67, 67, 67, 0.8)';
+          }
+        });
+        
+        sceneNav.appendChild(button);
+        
+      } else if (item.type === 'group') {
+        // Create accordion group
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'group';
+        groupDiv.dataset.groupId = item.id;
+        
+        const groupHeader = document.createElement('div');
+        groupHeader.className = 'group-header' + (item.collapsed ? ' collapsed' : '');
+        groupHeader.innerHTML = `
+          <span>${item.name}</span>
+          <span class="arrow">▼</span>
+        `;
+        
+        const groupContent = document.createElement('div');
+        groupContent.className = 'group-content' + (item.collapsed ? ' collapsed' : '');
+        
+        item.scenes.forEach((scene) => {
+          const globalSceneIndex = sceneIndexCounter++;
+          const button = document.createElement('button');
+          button.className = 'scene-button';
+          button.textContent = scene.name;
+          button.dataset.sceneIndex = globalSceneIndex;
+          button.dataset.sceneId = scene.id;
+          
+          if (sceneIndexCounter === 1) {
+            button.classList.add('active');
+          }
+          
+          button.addEventListener('click', () => {
+            scenesData[globalSceneIndex].switchTo();
+            switchToSceneMusic(globalSceneIndex);
+            currentSceneIndex = globalSceneIndex;
+            
+            document.querySelectorAll('.scene-button').forEach(btn => {
+              btn.classList.remove('active');
+            });
+            button.classList.add('active');
+          });
+          
+          groupContent.appendChild(button);
+        });
+        
+        groupHeader.addEventListener('click', () => {
+          groupHeader.classList.toggle('collapsed');
+          groupContent.classList.toggle('collapsed');
+        });
+        
+        groupDiv.appendChild(groupHeader);
+        groupDiv.appendChild(groupContent);
+        sceneNav.appendChild(groupDiv);
+      }
+    });
+    
+	// Switch to first scene
+    scenesData[0].switchTo();
 	
     // Auto-play music on first user interaction
     document.addEventListener('click', () => {
