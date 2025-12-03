@@ -1,4 +1,4 @@
-var APP_DATA = {
+var projectData = {
 	// Default background music (loops continuously)
   defaultMusic: 'assets/Stream-Music-Christmas-2023.mp3',
   
