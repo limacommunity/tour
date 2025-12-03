@@ -289,19 +289,19 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": 0.5068735603474401,
-          "pitch": 0.7,
+          "pitch": 0.5,
           "rotation": 1.5707963267948966,
           "target": "7-sanctuary-east-aisle"
         },
         {
           "yaw": -0.612231584915083,
-          "pitch": 0.7,
+          "pitch": 0.5,
           "rotation": 4.71238898038469,
           "target": "8-sanctuary-west-aisle"
         },
         {
           "yaw": -0.07046259676734046,
-          "pitch": 0.7,
+          "pitch": 0.5,
           "rotation": 3.141592653589793,
           "target": "9-welcome-center-in-lobby"
         }
@@ -309,13 +309,13 @@ var APP_DATA = {
       "infoHotspots": [
         {
           "yaw": 0.24275725435109408,
-          "pitch": 0.55,
+          "pitch": 0.40,
           "title": "Sermons",
           "text": "Sermons Link"
         },
         {
           "yaw": -0.37928584185309333,
-          "pitch": 0.55,
+          "pitch": 0.40,
           "title": "Worship Set",
           "text": "Worship Set Link"
         }
