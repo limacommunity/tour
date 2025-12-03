@@ -750,7 +750,7 @@ var projectData = {
       infoHotspots: []
     },
     {
-      id: '15-13-24-months-room,
+      id: '15-13-24-months-room',
       name: '13-24 months Room',
       levels: [
         {
