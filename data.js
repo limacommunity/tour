@@ -1117,8 +1117,10 @@ var projectData = {
         }
       ],
       infoHotspots: []
-	  ]
+	  
     },
+	
+	]
 },
     {
       id: '23-1st-to-5th-grade,
