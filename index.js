@@ -109,6 +109,7 @@
 
 */
 
+
   // Set up autorotate, if enabled.
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.03,
@@ -139,6 +140,8 @@
     document.body.classList.add('fullscreen-disabled');
   }
 
+
+/*
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
 
@@ -158,7 +161,7 @@
       }
     });
   });
-
+*/
   // DOM elements for view controls.
   var viewUpElement = document.querySelector('#viewUp');
   var viewDownElement = document.querySelector('#viewDown');
@@ -183,7 +186,7 @@
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
-
+/*
   function switchScene(scene) {
     stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
@@ -222,7 +225,7 @@
     sceneListElement.classList.toggle('enabled');
     sceneListToggleElement.classList.toggle('enabled');
   }
-
+*/
   function startAutorotate() {
     if (!autorotateToggleElement.classList.contains('enabled')) {
       return;
