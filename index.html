@@ -256,7 +256,7 @@
       </a>
     
       <a href="javascript:void(0)" class="scene" data-id="23-1st-to-5th-grade">
-        <li class="text">1st to 5th Grade</li>
+        <li class="text">1st - 5th Grade</li>
       </a>
     
   </ul>
@@ -283,7 +283,7 @@
         </svg>
       </button>
       <div class="volume-slider" id="volumeSlider">
-        <input type="range" id="volumeRange" min="0" max="100" value="70">
+        <input type="range" id="volumeRange" min="0" max="100" value="50">
       </div>
     </div>
 </div>
@@ -331,7 +331,35 @@
 <script src="index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marzipano/0.10.2/marzipano.js"></script>
   <script>
-    // Audio setup
+    // Setup
+	const projectData = {
+      defaultMusic: 'assets/Stream-Music-Christmas-2023.mp3',
+      scenes: [
+        {
+          name: 'Scene 1',
+          size: 2000,
+          color: '4A90E2'
+          // No music property means use default music
+        },
+        {
+          name: 'Scene 2',
+          size: 2000,
+          color: 'E24A4A',
+          music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
+        },
+        {
+          name: 'Scene 3',
+          size: 2000,
+          color: '4AE290'
+          // No music property means use default music
+        }
+      ]
+    };
+	
+	
+	
+	
+	
 	// const defaultMusic = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'); 
 	const defaultMusic = new Audio('assets/Stream-Music-Christmas-2023.mp3');
     defaultMusic.loop = true;
