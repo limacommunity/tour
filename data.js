@@ -195,7 +195,18 @@ var projectData = {
                         }
                     ],
                     "infoHotspots": [
-                    ]
+                    ],
+					"hotspots": [
+					  {
+						"id": "to-lobby-from-west-parking-lot",
+						"type": "link",
+						"yaw": 0.71086312039032507,
+						"pitch": 0.069592534389423477,
+						"rotation": 5.497787143782138,
+						"target": "5-lobby",
+						"text": "Go to Lobby"
+					  }
+					]
                 },
                 {
                     "id": "4-parking-lot---east",
