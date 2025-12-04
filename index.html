@@ -525,7 +525,8 @@
 
     // Setup
   var sceneNameElement = document.querySelector('#titleBar .sceneName');
-  
+  var sceneListElement = document.querySelector('#sceneList');
+  var sceneElements = document.querySelectorAll('#sceneList .scene');  
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
@@ -951,6 +952,29 @@
   } else {
     document.body.classList.add('fullscreen-disabled');
   }
+  
+  // Set handler for scene list toggle.
+  sceneListToggleElement.addEventListener('click', toggleSceneList);
+
+  // Start with the scene list open on desktop.
+  if (!document.body.classList.contains('mobile')) {
+    showSceneList();
+  }
+
+  function showSceneList() {
+    sceneListElement.classList.add('enabled');
+    sceneListToggleElement.classList.add('enabled');
+  }
+
+  function hideSceneList() {
+    sceneListElement.classList.remove('enabled');
+    sceneListToggleElement.classList.remove('enabled');
+  }
+
+  function toggleSceneList() {
+    sceneListElement.classList.toggle('enabled');
+    sceneListToggleElement.classList.toggle('enabled');
+  }
 
   function startAutorotate() {
     if (!autorotateToggleElement.classList.contains('enabled')) {
@@ -999,10 +1023,11 @@
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
-  
+
+  //Start Autorotate
   startAutorotate();
 	
-// Auto-play music on first user interaction
+  // Auto-play music on first user interaction
     document.addEventListener('click', () => {
       if (!isPlaying) {
         playMusic();
