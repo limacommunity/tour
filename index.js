@@ -19,7 +19,7 @@
   var Marzipano = window.Marzipano;
   var bowser = window.bowser;
   var screenfull = window.screenfull;
-  var data = window.APP_DATA;
+  var data = window.projectData;
 
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
