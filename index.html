@@ -854,13 +854,13 @@
     function createLevels(size) {
       return [{
         tileSize: 256,
-        size: 256,
+        size: size,
         fallbackOnly: true
       }];
     }
     
     const scenesData = allScenes.map((scene, index) => {
-      const geometry = new Marzipano.CubeGeometry(createLevels(scene.size));
+      /*const geometry = new Marzipano.CubeGeometry(createLevels(scene.size));
       
       const source = new Marzipano.ImageUrlSource((tile) => {
         return `https://via.placeholder.com/256/${scene.color}/ffffff?text=${scene.name}`;
@@ -868,6 +868,17 @@
       
       const view = new Marzipano.RectilinearView();
       
+	  */
+	  
+	  var urlPrefix = "tiles";
+      var source = Marzipano.ImageUrlSource.fromString(
+        urlPrefix + "/" + scene.id + "/{z}/{f}/{y}/{x}.jpg",
+        { cubeMapPreviewUrl: urlPrefix + "/" + scene.id + "/preview.jpg" });
+      var geometry = new Marzipano.CubeGeometry(scene.levels);
+
+      var limiter = Marzipano.RectilinearView.limit.traditional(scene.faceSize, 100*Math.PI/180, 120*Math.PI/180);
+      var view = new Marzipano.RectilinearView(scene.initialViewParameters, limiter);
+	  
       return viewer.createScene({
         source: source,
         geometry: geometry,
