@@ -524,153 +524,13 @@
 <script>  
 
     // Setup
+  var sceneNameElement = document.querySelector('#titleBar .sceneName');
+  
+  var sceneListToggleElement = document.querySelector('#sceneListToggle');
+  var autorotateToggleElement = document.querySelector('#autorotateToggle');
+  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+	
 
-	const projectData2 = {
-      defaultMusic: 'assets/Stream-Music-Christmas-2023.mp3',
-     menu: [
-        {
-          type: 'group',
-          id: 'street-entrances',
-          name: 'Street Entrances',
-		  collapsed: true,
-		  scenes: [
-            {
-              id: '0-entrance-from-diller-road',
-              name: 'Entrance from Diller Road',
-              size: 2000,
-              color: '4A90E2'
-            },
-            {
-              id: '1-entrance-on-cole-from-north',
-              name: 'Entrance on Cole from North',
-              size: 2000,
-              color: '5BA3F5',
-              music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
-            },
-            {
-              id: '2-entrance-from-lima-on-cole-st',
-              name: 'Entrance from Lima on Cole St',
-              size: 2000,
-              color: '6BB6FF'
-            }
-          ]
-        },
-        {
-          type: 'group',
-          id: 'parking-lot',
-          name: 'Parking Lot',
-          collapsed: true,
-          scenes: [
-            {
-              id: '3-parking-lot---west',
-              name: 'Parking Lot - West',
-              size: 2000,
-              color: '4A90E2'
-            },
-            {
-              id: '4-parking-lot---east',
-              name: 'Parking Lot - East',
-              size: 2000,
-              color: '5BA3F5',
-              music: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
-            },
-           ]
-        },
-        {
-          type: 'scene',
-          id: '5-lobby',
-          name: 'Lobby',
-          size: 2000,
-          color: '795548'
-        },
-        {
-          type: 'group',
-          id: 'sanctuary',
-          name: 'Sanctuary',
-          collapsed: true,
-          scenes: [
-            {
-              id: '6-sanctuary-center-aisle',
-              name: 'Sanctuary - Center Aisle',
-              size: 2000,
-              color: 'E24A4A'
-            },
-            {
-              id: '7-sanctuary-east-aisle',
-              name: 'Sanctuary - East Aisle',
-              size: 2000,
-              color: 'F55B5B'
-            },
-			{
-              id: '8-sanctuary-west-aisle',
-              name: 'Sanctuary - West Aisle',
-              size: 2000,
-              color: 'F55B5B'
-            }
-          ]
-        },
-		{
-          type: 'scene',
-          id: '10-cafe',
-          name: 'Cafe',
-          size: 2000,
-          color: '795548'
-        },
-		{
-          type: 'scene',
-          id: '11-first-time-families',
-          name: 'First Time Families',
-          size: 2000,
-          color: '795548'
-        },
-        {
-          type: 'group',
-          id: 'birth-3-years-old',
-          name: 'Birth - 3 years ',
-          collapsed: true,
-          scenes: [
-            {
-              id: '12-birth-to-13-months-entrance (tinytown)',
-              name: 'Birth - 13 months',
-              size: 2000,
-              color: '4AE290'
-            },
-            {
-              id: '14-13-24-months-entrance (tinytown)',
-              name: '13-24 months',
-              size: 2000,
-              color: '5BF5A3'
-            },
-			{
-              id: '16-2-years-old-entrance (tinytown)',
-              name: '2 years old',
-              size: 2000,
-              color: '5BF5A3'
-            },
-			{
-              id: '18-3-years-old-entrance (tinytown)',
-              name: '3 years old',
-              size: 2000,
-              color: '5BF5A3'
-            }
-          ]
-        },
-        {
-          type: 'scene',
-          id: '21-4-yrs-old-kindergarten-entrance',
-          name: '4 yrs old - Kindergarten (upTown)',
-          size: 2000,
-          color: '607D8B'
-        },
-		{
-          type: 'scene',
-          id: '23-1st-to-5th-grade',
-          name: '1st - 5th Grade (DOWNTOWN)',
-          size: 2000,
-          color: '607D8B'
-        }
-      ]
-    };
 	
 	// Flatten scenes for easy access
     const allScenes = [];
@@ -1055,6 +915,28 @@
     document.body.classList.add('fullscreen-disabled');
   }
 
+  function startAutorotate() {
+    if (!autorotateToggleElement.classList.contains('enabled')) {
+      return;
+    }
+    viewer.startMovement(autorotate);
+    viewer.setIdleMovement(3000, autorotate);
+  }
+
+  function stopAutorotate() {
+    viewer.stopMovement();
+    viewer.setIdleMovement(Infinity);
+  }
+
+  function toggleAutorotate() {
+    if (autorotateToggleElement.classList.contains('enabled')) {
+      autorotateToggleElement.classList.remove('enabled');
+      stopAutorotate();
+    } else {
+      autorotateToggleElement.classList.add('enabled');
+      startAutorotate();
+    }
+  }
 	
 // Auto-play music on first user interaction
     document.addEventListener('click', () => {
