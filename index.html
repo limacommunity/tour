@@ -959,7 +959,7 @@
 
   function switchScene(scene) {
     stopAutorotate();
-    scene.view.setParameters(scene.data.initialViewParameters);
+    scene.view.setParameters(scene.initialViewParameters);
     scene.scene.switchTo();
     startAutorotate();
     updateSceneName(scene);
