@@ -889,15 +889,15 @@
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
   // Create scenes.
-  var scenesData = allScenes.map(function(data) {
+  const scenesData = allScenes.map((scene, index) => {
     var urlPrefix = "tiles";
     var source = Marzipano.ImageUrlSource.fromString(
-      urlPrefix + "/" + allScenes.id + "/{z}/{f}/{y}/{x}.jpg",
-      { cubeMapPreviewUrl: urlPrefix + "/" + allScenes.id + "/preview.jpg" });
-    var geometry = new Marzipano.CubeGeometry(allScenes.levels);
+      urlPrefix + "/" + scene.id + "/{z}/{f}/{y}/{x}.jpg",
+      { cubeMapPreviewUrl: urlPrefix + "/" + scene.id + "/preview.jpg" });
+    var geometry = new Marzipano.CubeGeometry(scene.levels);
 
-    var limiter = Marzipano.RectilinearView.limit.traditional(allScenes.faceSize, 100*Math.PI/180, 120*Math.PI/180);
-    var view = new Marzipano.RectilinearView(allScenes.initialViewParameters, limiter);
+    var limiter = Marzipano.RectilinearView.limit.traditional(scene.faceSize, 100*Math.PI/180, 120*Math.PI/180);
+    var view = new Marzipano.RectilinearView(scene.initialViewParameters, limiter);
 
     var scene = viewer.createScene({
       source: source,
