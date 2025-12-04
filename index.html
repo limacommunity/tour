@@ -906,13 +906,25 @@
       pinFirstLevel: true
     });
 	
+	// Create link hotspots.
+    allScenes.linkHotspots.forEach(function(hotspot) {
+      var element = createLinkHotspotElement(hotspot);
+      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+    });
+
+    // Create info hotspots.
+    allScenes.infoHotspots.forEach(function(hotspot) {
+      var element = createInfoHotspotElement(hotspot);
+      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+    });
+	
 	return {
       data: data,
       scene: scene,
       view: view
     };
 	
-	});
+});
 	
 	// Switch to first scene
     scenesData[0].switchTo();
@@ -1018,13 +1030,12 @@
 	// Switch to first scene
     scenesData[0].switchTo();
 	
-    // Auto-play music on first user interaction
+// Auto-play music on first user interaction
     document.addEventListener('click', () => {
       if (!isPlaying) {
         playMusic();
       }
-    }, 
-	{ once: true });
+    }, { once: true });
 	
   </script>
 </body>
