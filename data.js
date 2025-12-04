@@ -768,15 +768,15 @@ var projectData = {
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -802,20 +802,20 @@ var projectData = {
                     "name": "2 years old Entrance",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -853,20 +853,20 @@ var projectData = {
                     "name": "2 years old Room",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -892,20 +892,20 @@ var projectData = {
                     "name": "3 years old Entrance",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -943,20 +943,20 @@ var projectData = {
                     "name": "3 years old Room",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -988,20 +988,20 @@ var projectData = {
                     "name": "tinytown Story Room",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -1047,20 +1047,20 @@ var projectData = {
                     "name": "4 yrs old-Kindergarten Entrance",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -1092,20 +1092,20 @@ var projectData = {
                     "name": "4 yrs old-Kindergarten Worship",
                     "levels": [
                         {
-                            "timeSize": 256,
+                            "tileSize": 256,
                             "size": 256,
                             "fallbackOnly": true
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 512
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 1024
                         },
                         {
-                            "timeSize": 512,
+                            "tileSize": 512,
                             "size": 2048
                         }
                     ],
@@ -1140,20 +1140,20 @@ var projectData = {
             "name": "1st to 5th Grade (DOWNTOWN)",
             "levels": [
                 {
-                    "timeSize": 256,
+                    "tileSize": 256,
                     "size": 256,
                     "fallbackOnly": true
                 },
                 {
-                    "timeSize": 512,
+                    "tileSize": 512,
                     "size": 512
                 },
                 {
-                    "timeSize": 512,
+                    "tileSize": 512,
                     "size": 1024
                 },
                 {
-                    "timeSize": 512,
+                    "tileSize": 512,
                     "size": 2048
                 }
             ],
