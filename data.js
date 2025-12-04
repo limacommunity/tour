@@ -322,7 +322,18 @@ var projectData = {
                 }
             ],
             "infoHotspots": [
-            ]
+            ],
+			"hotspots": [
+					  {
+						"id": "to-sanctuary-center-aisle",
+						"type": "link",
+						"yaw": -0.064478168230250432,
+						"pitch": 0.18902377382448776,
+						"rotation": 6.2831853071795862,
+						"target": "6-sanctuary-center-aisle"
+						"text": "Go to Sanctuary - Center Aisle"
+					  }
+					]
         },
         {
             "type": "group",
