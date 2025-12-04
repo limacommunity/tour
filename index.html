@@ -967,8 +967,10 @@
   }
 
   function updateSceneName(scene) {
-    sceneNameElement.innerHTML = sanitize(scene.data.name);
+    sceneNameElement.innerHTML = sanitize(scene.name);
   }
+  
+  
 
   //Start Autorotate
   startAutorotate();
@@ -981,7 +983,7 @@
     }, { once: true });
 	
   // Display the initial scene.
-  switchScene(allScenes[4]);
+  switchScene(allScenes[0]);
 	
   </script>
 </body>
