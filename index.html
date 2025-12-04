@@ -896,6 +896,9 @@
       { cubeMapPreviewUrl: urlPrefix + "/" + scene.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(scene.levels);
 
+	console.log(scene.levels);
+	console.log(geometry);
+
     var limiter = Marzipano.RectilinearView.limit.traditional(scene.faceSize, 100*Math.PI/180, 120*Math.PI/180);
     var view = new Marzipano.RectilinearView(scene.initialViewParameters, limiter);
 
