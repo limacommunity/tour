@@ -50,7 +50,18 @@ var projectData = {
                         }
                     ],
                     "infoHotspots": [
-                    ]
+                    ],
+					"hotspots": [
+					  {
+						"id": "to-parking-lot-west",
+						"type": "link",
+						"yaw": -0.16741515840723409,
+						"pitch": 0.55740076511952452,
+						"rotation": 1.5707963267948966,
+						"target": "3-parking-lot---west",
+						"text": 'Go to Parking Lot - West'
+					  }
+					]
                 },
                 {
                     "id": "1-entrance-on-cole-from-north",
