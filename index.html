@@ -212,9 +212,9 @@
     }
 	 .scene-nav {
       position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 280px;
+      top: 40px;
+      left: 0px;
+      width: 250px;
       z-index: 1000;
       max-height: calc(100vh - 60px);
       overflow-y: auto;
@@ -1031,7 +1031,7 @@
     targetPitch: 0,
     targetFov: Math.PI/2
   });
-  if (data.settings.autorotateEnabled) {
+  if (projectData.settings.autorotateEnabled) {
     autorotateToggleElement.classList.add('enabled');
   }
 
