@@ -1025,6 +1025,37 @@
 	// Switch to first scene
     scenesData[0].switchTo();
 	
+	// Set up autorotate, if enabled.
+  var autorotate = Marzipano.autorotate({
+    yawSpeed: 0.03,
+    targetPitch: 0,
+    targetFov: Math.PI/2
+  });
+  if (data.settings.autorotateEnabled) {
+    autorotateToggleElement.classList.add('enabled');
+  }
+
+  // Set handler for autorotate toggle.
+  autorotateToggleElement.addEventListener('click', toggleAutorotate);
+
+  // Set up fullscreen mode, if supported.
+  if (screenfull.enabled && data.settings.fullscreenButton) {
+    document.body.classList.add('fullscreen-enabled');
+    fullscreenToggleElement.addEventListener('click', function() {
+      screenfull.toggle();
+    });
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
+
+	
 // Auto-play music on first user interaction
     document.addEventListener('click', () => {
       if (!isPlaying) {
