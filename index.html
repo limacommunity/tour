@@ -717,13 +717,13 @@
 
 	
 	// Create link hotspots.
-    allScenes.linkHotspots.forEach(function(hotspot) {
+    scenesData.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
     // Create info hotspots.
-    allScenes.infoHotspots.forEach(function(hotspot) {
+    scenesData.infoHotspots.forEach(function(hotspot) {
       var element = createInfoHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
