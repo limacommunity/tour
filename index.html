@@ -716,7 +716,15 @@
     var view = new Marzipano.RectilinearView(scene.initialViewParameters, limiter);
 
 	
-	// Create link hotspots.
+
+	 return viewer.createScene({
+        source: source,
+        geometry: geometry,
+        view: view,
+        pinFirstLevel: true
+      });
+	  
+	 	// Create link hotspots.
     scenesData.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
@@ -726,14 +734,7 @@
     scenesData.infoHotspots.forEach(function(hotspot) {
       var element = createInfoHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
-    });
-	
-	 return viewer.createScene({
-        source: source,
-        geometry: geometry,
-        view: view,
-        pinFirstLevel: true
-      });
+    }); 
 	
 });
 	
