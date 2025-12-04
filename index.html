@@ -239,7 +239,7 @@
     }
     
     .group {
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       background: rgba(67, 67, 67, 0.8);
       border-radius: 8px;
       overflow: hidden;
@@ -274,7 +274,7 @@
     }
     
     .group-content {
-      max-height: 500px;
+      max-height: 400px;
       overflow: hidden;
       transition: max-height 0.3s ease;
     }
@@ -299,7 +299,7 @@
     .ungrouped-scenes .scene-button {
       background: rgba(67, 67, 67, 0.8);
       border-radius: 8px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       border-bottom: none;
     }
     
@@ -989,7 +989,7 @@
           const globalSceneIndex = sceneIndexCounter++;
           const button = document.createElement('button');
           button.className = 'scene-button';
-          button.textContent = scene.name;
+          button.textContent = '  ' + scene.name;
           button.dataset.sceneIndex = globalSceneIndex;
           button.dataset.sceneId = scene.id;
           
