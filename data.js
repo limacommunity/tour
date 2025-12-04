@@ -1179,7 +1179,14 @@ var projectData = {
             ],
             "infoHotspots": [
             ]
-        }
+        },
+		{
+		  type: 'link',
+		  id: 'link-web-site',
+		  name: '🌐 Visit Our Website',
+		  url: 'https://limacommunitychurch.com',
+		  newTab: true // true = open in new tab, false = same tab
+    },
     ],
     "name": "Lima Community Church Virtual Tour",
     "settings": {
