@@ -35,26 +35,6 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
-                        {
-							"id": "to-parking-lot-west2",
-							"type": "link",
-                            "yaw": -0.16741515840723409,
-                            "pitch": 0.55740076511952452,
-                            "rotation": 1.5707963267948966,
-                            "target": "3-parking-lot---west",
-							"text": "Go to Parking Lot - West"
-                        },
-                        {
-							"id": "to-parking-lot-west3",
-                            "type": "link",
-							"yaw": 1.6948440686584476,
-                            "pitch": 0.40957697755964872,
-                            "rotation": 0,
-                            "target": "3-parking-lot---west",
-							"text": "Go to Parking Lot - West"
-                        }
-                    ],
                     "infoHotspots": [
                     ],
 					"hotspots": [
@@ -106,12 +86,15 @@ var projectData = {
                         "pitch": -0.030925047156229013,
                         "fov": 1.5091423593016802
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
+							"id": "to-parking-lot-east-from-north",
+							"type": "link",
                             "yaw": -0.28359336809684876,
                             "pitch": 0.027916561278299667,
                             "rotation": 1.5707963267948966,
                             "target": "4-parking-lot---east"
+							"text": "Go to Parking Lot - East"
                         }
                     ],
                     "infoHotspots": [
