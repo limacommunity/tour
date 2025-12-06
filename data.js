@@ -92,7 +92,7 @@ var projectData = {
 							"type": "link",
                             "yaw": -0.28359336809684876,
                             "pitch": 0.027916561278299667,
-                            "rotation": 1.5707963267948966,
+                            "rotation": 0,
                             "target": "4-parking-lot---east",
 							"text": "Go to Parking Lot - East"
                         }
@@ -128,12 +128,15 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
+							"id": "to-parking-lot-east-from-lima",
+							"type": "link",
                             "yaw": 0.24032052521222624,
                             "pitch": 0.25324350204677337,
                             "rotation": 4.71238898038469,
-                            "target": "4-parking-lot---east"
+                            "target": "4-parking-lot---east",
+							"text": "Go to Parking Lot - East"
                         }
                     ],
                     "infoHotspots": [
