@@ -733,6 +733,15 @@
         fallbackOnly: true
       }];
     }
+	
+	function findSceneDataById(id) {
+      for (var i = 0; i < scenseData.scenes.length; i++) {
+        if (scenseData.scenes[i].id === id) {
+          return scenseData.scenes[i];
+        }
+      }
+      return null;
+    }
     
 	/*
     const scenesData = allScenes.map((scene, index) => {
