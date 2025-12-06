@@ -93,7 +93,7 @@ var projectData = {
                             "yaw": -0.28359336809684876,
                             "pitch": 0.027916561278299667,
                             "rotation": 1.5707963267948966,
-                            "target": "4-parking-lot---east"
+                            "target": "4-parking-lot---east",
 							"text": "Go to Parking Lot - East"
                         }
                     ],
