@@ -134,7 +134,7 @@ var projectData = {
 							"type": "link",
                             "yaw": 0.24032052521222624,
                             "pitch": 0.25324350204677337,
-                            "rotation": 4.71238898038469,
+                            "rotation": 1.57,
                             "target": "4-parking-lot---east",
 							"text": "Go to Parking Lot - East"
                         }
@@ -178,23 +178,15 @@ var projectData = {
                         "pitch": -0.1482326161624119,
                         "fov": 1.5091423593016802
                     },
-                    "linkHotspots": [
-                        {
-                            "yaw": -0.24326155404453687,
-                            "pitch": 0.10149321406764145,
-                            "rotation": 0,
-                            "target": "5-lobby"
-                        }
-                    ],
                     "infoHotspots": [
                     ],
 					"hotspots": [
 					  {
 						"id": "to-lobby-from-west-parking-lot",
 						"type": "link",
-						"yaw": 0.71086312039032507,
-						"pitch": 0.069592534389423477,
-						"rotation": 5.497787143782138,
+						"yaw": -0.24326155404453687,
+						"pitch": 0.10149321406764145,
+						"rotation": 1.4,
 						"target": "5-lobby",
 						"text": "Go to Lobby"
 					  }
