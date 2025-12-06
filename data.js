@@ -220,25 +220,19 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
-                        {
+                    "infoHotspots": [
+                    ],
+					"hotspots": [
+						{
+							"id": "to-lobby-from-east-parking-lot",
+							"type": "link",
                             "yaw": -0.12630851856902048,
                             "pitch": 0.073418152126320635,
                             "rotation": 0,
                             "target": "5-lobby"
                         },
-                        {
-                            "yaw": 0.71086312039032507,
-                            "pitch": 0.069592534389423477,
-                            "rotation": 5.497787143782138,
-                            "target": "5-lobby"
-                        }
-                    ],
-                    "infoHotspots": [
-                    ],
-					"hotspots": [
-					  {
-						"id": "to-lobby-from-west-parking-lot",
+						{
+						"id": "to-lobby-from-east-parking-lot2",
 						"type": "link",
 						"yaw": 0.71086312039032507,
 						"pitch": 0.069592534389423477,
