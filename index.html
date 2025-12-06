@@ -803,15 +803,10 @@
 	  // Add link hotspots if defined
       if (scene.linkHotspots) {
         scene.linkHotspots.forEach(hotspot => {
-          const hotspotElement = createHotspot(hotspot, index);
-          marzipanoScene.hotspotContainer().createHotspot(hotspotElement, {
-            yaw: hotspot.yaw,
-            pitch: hotspot.pitch
-			rotation: hotspot.rotation
-			target: hotspot.target
+            var element = createLinkHotspotElement(hotspot);
+			scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
           });
-        });
-      }
+      };	
 	  
       // Add scene info hotspot if info is defined
       if (scene.info) {
