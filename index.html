@@ -849,7 +849,7 @@
       wrapper.className = 'hotspot' + (hotspot.type === 'link' ? ' link-hotspot' : '');
       wrapper.dataset.hotspotId = hotspot.id;
       
-      const icon = document.createElement('img');
+      const icon = document.createElement('div');
 	  icon.src = 'img/link.png';
       icon.className = 'hotspot-icon';
       icon.textContent = hotspot.type === 'info' ? 'i' : '→';
