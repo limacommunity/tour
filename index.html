@@ -790,11 +790,17 @@
         pinFirstLevel: true
       });
       
-	  // Create link hotspots.
-	  scene.linkHotspots.forEach(function(hotspot) {
-        var element = createLinkHotspotElement(hotspot);
-        scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
-      });
+	  
+	  // Add link hotspots if defined
+      if (scene.linkHotspots) {
+        scene.linkHotspots.forEach(hotspot => {
+          const hotspotElement = createHotspot(hotspot, index);
+          marzipanoScene.hotspotContainer().createHotspot(hotspotElement, {
+            yaw: hotspot.yaw,
+            pitch: hotspot.pitch
+          });
+        });
+      }
 	  
       // Add scene info hotspot if info is defined
       if (scene.info) {
