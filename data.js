@@ -274,30 +274,6 @@ var projectData = {
                 "fov": 1.5091423593016802
             },
             "linkHotspots": [
-                {
-                    "yaw": -0.064478168230250432,
-                    "pitch": 0.18902377382448776,
-                    "rotation": 6.2831853071795862,
-                    "target": "6-sanctuary-center-aisle"
-                },
-                {
-                    "yaw": 0.651799063766461,
-                    "pitch": 0.26192586120679451,
-                    "rotation": 1.5707963267948966,
-                    "target": "10-cafe"
-                },
-                {
-                    "yaw": 0.44945525231788963,
-                    "pitch": 0.22092955133881986,
-                    "rotation": 0.78539816339744828,
-                    "target": "11-first-time-families"
-                },
-                {
-                    "yaw": -0.96766496812846015,
-                    "pitch": 0.44161605610973353,
-                    "rotation": 4.71238898038469,
-                    "target": "9-welcome-center-in-lobby"
-                }
             ],
             "infoHotspots": [
             ],
@@ -307,10 +283,37 @@ var projectData = {
 						"type": "link",
 						"yaw": -0.064478168230250432,
 						"pitch": 0.18902377382448776,
-						"rotation": 6.2831853071795862,
+						"rotation": 4.71,
 						"target": "6-sanctuary-center-aisle",
 						"text": "Go to Sanctuary - Center Aisle"
-					  }
+					  },
+					  {
+					"id": "to-cafe",
+					"type": "link",
+                    "yaw": 0.651799063766461,
+                    "pitch": 0.26192586120679451,
+                    "rotation": 1.5707963267948966,
+                    "target": "10-cafe",
+					"text": "Go to Cafe"
+                },
+                {
+					"id": "to-first-time-here-for-families",
+					"type": "link",
+                    "yaw": 0.44945525231788963,
+                    "pitch": 0.22092955133881986,
+                    "rotation": 0.78539816339744828,
+                    "target": "11-first-time-families",
+					"text": "Go to First Time Here for Families"
+                },
+				{
+					"id": "to-welcome-center-in-lobby-from-lobby",
+					"type": "link",
+                    "yaw": -0.96766496812846015,
+                    "pitch": 0.44161605610973353,
+                    "rotation": 3.14,
+                    "target": "9-welcome-center-in-lobby",
+					"text": "Go to Welcome Center"
+                }
 					]
         },
         {
