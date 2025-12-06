@@ -228,7 +228,7 @@ var projectData = {
 							"type": "link",
                             "yaw": -0.12630851856902048,
                             "pitch": 0.073418152126320635,
-                            "rotation": 0,
+                            "rotation": 4.7,
                             "target": "5-lobby"
                         },
 						{
@@ -236,7 +236,7 @@ var projectData = {
 						"type": "link",
 						"yaw": 0.71086312039032507,
 						"pitch": 0.069592534389423477,
-						"rotation": 5.497787143782138,
+						"rotation": 3.9,
 						"target": "5-lobby",
 						"text": "Go to Lobby"
 					  }
