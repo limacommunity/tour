@@ -134,7 +134,7 @@ var projectData = {
 							"type": "link",
                             "yaw": 0.24032052521222624,
                             "pitch": 0.25324350204677337,
-                            "rotation": 1.57,
+                            "rotation": 3.14,
                             "target": "4-parking-lot---east",
 							"text": "Go to Parking Lot - East"
                         }
@@ -186,7 +186,7 @@ var projectData = {
 						"type": "link",
 						"yaw": -0.24326155404453687,
 						"pitch": 0.10149321406764145,
-						"rotation": 1.4,
+						"rotation": 4.625,
 						"target": "5-lobby",
 						"text": "Go to Lobby"
 					  }
