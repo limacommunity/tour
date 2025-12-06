@@ -803,8 +803,8 @@
 	  // Add link hotspots if defined
       if (scene.linkHotspots) {
         scene.linkHotspots.forEach(hotspot => {
-            var element = createLinkHotspotElement(hotspot);
-			marzipanoScene.hotspotContainer().createHotspot(element, {
+            const hotspotElement = createHotspot(hotspot, index);
+			marzipanoScene.hotspotContainer().createHotspot(hotspotElement, {
                 yaw: hotspot.yaw,
                 pitch: hotspot.pitch
 		    });
