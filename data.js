@@ -292,7 +292,7 @@ var projectData = {
 					"type": "link",
                     "yaw": 0.651799063766461,
                     "pitch": 0.26192586120679451,
-                    "rotation": 1.5707963267948966,
+                    "rotation": -.2,
                     "target": "10-cafe",
 					"text": "Go to Cafe"
                 },
@@ -301,7 +301,7 @@ var projectData = {
 					"type": "link",
                     "yaw": 0.44945525231788963,
                     "pitch": 0.22092955133881986,
-                    "rotation": 0.78539816339744828,
+                    "rotation": -.8,
                     "target": "11-first-time-families",
 					"text": "Go to First Time Here for Families"
                 },
