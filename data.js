@@ -350,24 +350,33 @@ var projectData = {
                         "pitch": 0,
                         "fov": 1.5091423593016802
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
+							"id": "to-sanctuary-east-from-center-aisle",
+							"type": "link",
                             "yaw": 0.50687356034744013,
                             "pitch": 0.5,
-                            "rotation": 1.5707963267948966,
-                            "target": "7-sanctuary-east-aisle"
+                            "rotation": 0,
+                            "target": "7-sanctuary-east-aisle",
+							"text": "Go to East Aisle"
                         },
                         {
+							"id": "to-sanctury-west-from-center-aisle",
+							"type": "link",
                             "yaw": -0.612231584915083,
                             "pitch": 0.5,
-                            "rotation": 4.71238898038469,
-                            "target": "8-sanctuary-west-aisle"
+                            "rotation": 3.14,
+                            "target": "8-sanctuary-west-aisle",
+							"text": "Go to West Aisle"
                         },
                         {
+							"id": "to-welcome-center-in-lobby-from-center-aisle",
+							"type": "link",
                             "yaw": -0.070462596767340457,
                             "pitch": 0.5,
-                            "rotation": 3.1415926535897931,
-                            "target": "9-welcome-center-in-lobby"
+                            "rotation": 1.57,
+                            "target": "9-welcome-center-in-lobby",
+							"text": "Go to Welcome Center"
                         }
                     ],
                     "infoHotspots": [
