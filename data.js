@@ -385,7 +385,7 @@ var projectData = {
 							"yaw": 0.24275725435109408,
                             "pitch": 0.4,
                             "title": "Sermons",
-                            "text": "<a href='https://www.limacc.com/messageseries'>Link to our Sermon Series</a>"
+                            "text": "Visit our <a href=\"https://www.limacc.com/messageseries\" target=\"_blank\"><u>Sermon Series page</u></a> for our recent sermons.<a href=https://www.limacc.com/messageseries>Link to our Sermon Series</a>"
 						},
 						{
 							"id": "worship-set-link",
@@ -393,7 +393,7 @@ var projectData = {
 							"yaw": 0.38,
                             "pitch": 0.4,
                             "title": "Youtube Channel",
-                            "text": "<a href='https://www.youtube.com/@lccn'>Visit our Youtube channel to experience a worship set.</a>"
+                            "text": "Visit our <a href=\"https://www.youtube.com/@lccn\" target=\"_blank\"><u>Youtube Channel</u></a> for an online worship service.<a href=https://www.youtube.com/@lccn>Visit our Youtube channel to experience a worship set.</a>"
 						}
                     ],
                     "infoHotspots": [
