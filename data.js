@@ -383,7 +383,7 @@ var projectData = {
 							"id": "sermons-link",
 							"type": "info",
 							"yaw": .2,
-                            "pitch": 1.01,
+                            "pitch": .7,
 							"rotation": 0,
                             "title": "Sermons",
                             "text": "Visit https://limacc.com/messageseries for recent messages."
@@ -392,7 +392,7 @@ var projectData = {
 							"id": "worship-set-link",
 							"type": "info",
 							"yaw": -.2,
-                            "pitch": 1.01,
+                            "pitch": .7,
 							"rotation": 0,
                             "title": "Youtube Channel",
                             "text": "https://youtube.com/@lccn for recent services."
