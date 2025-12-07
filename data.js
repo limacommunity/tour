@@ -1366,8 +1366,8 @@ var projectData = {
         },
 		{
 		  type: 'link-group',
-		  id: 'unique-id',
-		  name: '🌐 Links for Next Steps',link-group-next-steps
+		  id: 'link-group-next-steps',
+		  name: '🌐 Links for Next Steps',
 		  collapsed: true,  // true to start collapsed
 		  links: [
 			{
