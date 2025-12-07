@@ -378,7 +378,23 @@ var projectData = {
                             "rotation": 3.14,
                             "target": "9-welcome-center-in-lobby",
 							"text": "Go to Welcome Center"
-                        }
+                        },
+						{
+							"id": "sermons-link",
+							"type": "info",
+							"yaw": 0.24275725435109408,
+                            "pitch": 0.4,
+                            "title": "Sermons",
+                            "text": "Sermons Link"
+						},
+						{
+							"id": "worship-set-link",
+							"type": "info",
+							"yaw": 0.24275725435109408,
+                            "pitch": 0.4,
+                            "title": "Worship Set",
+                            "text": "Worship Set Link"
+						}
                     ],
                     "infoHotspots": [
                         {
