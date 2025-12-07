@@ -1298,7 +1298,7 @@ var projectData = {
                             "id": "to-lobby-from-4-yrs-old-to-kindergarten-entrance",
 							"type": "link",
 							"yaw": 0.061420262087638733,
-                            "pitch": 0.06,
+                            "pitch": 0.1,
                             "rotation": 3.1415926535897931,
                             "target": "5-lobby",
 							"text": "Go to Lobby"
