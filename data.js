@@ -356,7 +356,7 @@ var projectData = {
 							"id": "to-sanctuary-east-from-center-aisle",
 							"type": "link",
                             "yaw": 0.50687356034744013,
-                            "pitch": 0.5,
+                            "pitch": 1.53,
                             "rotation": 0,
                             "target": "7-sanctuary-east-aisle",
 							"text": "Go to East Aisle"
@@ -366,7 +366,7 @@ var projectData = {
 							"type": "link",
                             "yaw": -0.612231584915083,
                             "pitch": 0.5,
-                            "rotation": 3.14,
+                            "rotation": 4.72,
                             "target": "8-sanctuary-west-aisle",
 							"text": "Go to West Aisle"
                         },
@@ -375,7 +375,7 @@ var projectData = {
 							"type": "link",
                             "yaw": -0.070462596767340457,
                             "pitch": 0.5,
-                            "rotation": 1.57,
+                            "rotation": 3.14,
                             "target": "9-welcome-center-in-lobby",
 							"text": "Go to Welcome Center"
                         }
@@ -429,16 +429,17 @@ var projectData = {
 							"type": "link",
 							"yaw": 0.33888703125552055,
                             "pitch": 0.4,
-                            "rotation": 0,
+                            "rotation": 3.14,
                             "target": "9-welcome-center-in-lobby",
 							"text": "Go to Welcome Center"
                         },
                         {
                             
 							"id": "to-center-aisle-from-east-aisle",
-							"type": "link","yaw": 0.067095103845822734,
+							"type": "link",
+							"yaw": 0.067095103845822734,
                             "pitch": 0.4,
-                            "rotation": 3.14,
+                            "rotation": 4.72,
                             "target": "6-sanctuary-center-aisle",
 							"text": "Go to Center Aisle"
                         }
@@ -476,16 +477,22 @@ var projectData = {
                     },
                     "linkHotspots": [
                         {
+							"id": "to-center-aisle-from-west-aisle",
+							"type": "link",
                             "yaw": 0.5612981689270633,
                             "pitch": 0.4,
                             "rotation": 1.5707963267948966,
-                            "target": "6-sanctuary-center-aisle"
+                            "target": "6-sanctuary-center-aisle",
+							"text": "Go to Center Aisle"
                         },
                         {
+							"id": "to-welcome-center-from-west-aisle",
+							"type": "link",
                             "yaw": -0.50183028783663985,
                             "pitch": 0.4,
                             "rotation": 3.1415926535897931,
-                            "target": "9-welcome-center-in-lobby"
+                            "target": "9-welcome-center-in-lobby",
+							"text": "Go to Welcome Center"
                         }
                     ],
                     "infoHotspots": [
