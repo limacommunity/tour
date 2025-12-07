@@ -1388,7 +1388,7 @@ var projectData = {
 	{
 		  type: 'link',
 		  id: 'link-pre-register',
-		  name: '🌐  Pre-Register Kidos for Sunday',
+		  name: '🌐  Pre-Register Kiddos for Sunday',
 		  url: 'https://www.limacommunitychurch.com/im-new',
 		  newTab: true // true = open in new tab, false = same tab
     },
