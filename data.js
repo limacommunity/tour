@@ -635,7 +635,7 @@ var projectData = {
             "type": "scene",
             "id": "11-first-time-families",
             "name": "First Time Families",
-			"music": "assets/first-time-families-counter.mp3"
+			"music": "assets/first-time-families-counter.mp3",
             "levels": [
                 {
                     "tileSize": 256,
