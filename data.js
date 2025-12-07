@@ -648,7 +648,7 @@ var projectData = {
 					"type": "link",
                     "yaw": 0.73435225133849613,
                     "pitch": 0.57477341784129088,
-                    "rotation": -.2,
+                    "rotation": 1.54,
                     "target": "23-1st-to-5th-grade",
 					"text": "Go to 1st to 5th Grade (DOWNTOWN)"
                 },
@@ -657,45 +657,63 @@ var projectData = {
 					"type": "link",
 					"yaw": 1.7406199057703446,
                     "pitch": 0.4,
-                    "rotation": 1.54,
+                    "rotation": -.2,
                     "target": "23-1st-to-5th-grade",
 					"text": "Go to 1st to 5th Grade (DOWNTOWN)"
                 },
                 {
+					"id": "to-birth-to-13-months-entrance",
+					"type": "link",
                     "yaw": -0.76959574484604509,
                     "pitch": -0.098996349989080912,
                     "rotation": 0,
-                    "target": "12-birth-to-13-months-entrance"
+                    "target": "12-birth-to-13-months-entrance",
+					"text": "Go to Birth to 13 months (tinytown)"
                 },
                 {
-                    "yaw": -0.7712869200224155,
+                    "id": "to-13-24-months-entrance",
+					"type": "link",
+					"yaw": -0.7712869200224155,
                     "pitch": 0.024150179655606507,
                     "rotation": 0,
-                    "target": "14-13-24-months-entrance"
+                    "target": "14-13-24-months-entrance",
+					"text": "Go to 13 to 24 months (tinytown)"
                 },
                 {
+					"id": "to-3-years-entrance",
+					"type": "link",
                     "yaw": -0.77128627901833546,
                     "pitch": 0.27185854801551557,
                     "rotation": 0,
-                    "target": "18-3-years-old-entrance"
+                    "target": "18-3-years-old-entrance",
+					"text": "Go to 3 years old (tinytown)"
                 },
                 {
-                    "yaw": -0.76998611107018355,
+                    "id": "to-4-years-to-kindergarten-entrance",
+					"type": "link",
+					"yaw": -0.76998611107018355,
                     "pitch": 0.38886432317393549,
                     "rotation": 0,
-                    "target": "21-4-yrs-old-kindergarten-entrance"
+                    "target": "21-4-yrs-old-kindergarten-entrance",
+					"text": "Go to 4 years old to Kindergarten"
                 },
                 {
-                    "yaw": -0.77014495733709509,
+                    "id": "to-2-years-entrance",
+					"type": "link",
+					"yaw": -0.77014495733709509,
                     "pitch": 0.14944276345787877,
                     "rotation": 0,
-                    "target": "16-2-years-old-entrance"
+                    "target": "16-2-years-old-entrance",
+					"text": "Go to 2 years old"
                 },
                 {
-                    "yaw": -0.024431392644640226,
+                    "id": "to-lobby-from-first-time-families",
+					"type": "link",
+					"yaw": -0.024431392644640226,
                     "pitch": 0.4,
                     "rotation": 3.1415926535897931,
-                    "target": "5-lobby"
+                    "target": "5-lobby",
+					"text": "Go to Lobby"
                 }
             ],
             "infoHotspots": [
