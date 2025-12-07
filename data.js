@@ -284,7 +284,7 @@ var projectData = {
 						"type": "link",
 						"yaw": -0.064478168230250432,
 						"pitch": 0.18902377382448776,
-						"rotation": 4.71,
+						"rotation": .2,
 						"target": "6-sanctuary-center-aisle",
 						"text": "Go to Sanctuary - Center Aisle"
 					  },
@@ -293,7 +293,7 @@ var projectData = {
 					"type": "link",
                     "yaw": 0.651799063766461,
                     "pitch": 0.26192586120679451,
-                    "rotation": -.2,
+                    "rotation": 1.4,
                     "target": "10-cafe",
 					"text": "Go to Cafe"
                 },
@@ -302,7 +302,7 @@ var projectData = {
 					"type": "link",
                     "yaw": 0.44945525231788963,
                     "pitch": 0.22092955133881986,
-                    "rotation": -.8,
+                    "rotation": 1,
                     "target": "11-first-time-families",
 					"text": "Go to First Time Here for Families"
                 },
@@ -311,7 +311,7 @@ var projectData = {
 					"type": "link",
                     "yaw": -0.96766496812846015,
                     "pitch": 0.44161605610973353,
-                    "rotation": 3.14,
+                    "rotation": 4.72,
                     "target": "9-welcome-center-in-lobby",
 					"text": "Go to Welcome Center"
                 }
