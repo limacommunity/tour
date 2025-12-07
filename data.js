@@ -390,7 +390,7 @@ var projectData = {
 						{
 							"id": "worship-set-link",
 							"type": "info",
-							"yaw": 0.24275725435109408,
+							"yaw": 0.38,
                             "pitch": 0.4,
                             "title": "Worship Set",
                             "text": "Worship Set Link"
@@ -1298,7 +1298,7 @@ var projectData = {
                             "id": "to-lobby-from-4-yrs-old-to-kindergarten-entrance",
 							"type": "link",
 							"yaw": 0.061420262087638733,
-                            "pitch": 0.80509939271600928,
+                            "pitch": 0.06,
                             "rotation": 3.1415926535897931,
                             "target": "5-lobby",
 							"text": "Go to Lobby"
