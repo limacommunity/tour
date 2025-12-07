@@ -854,7 +854,7 @@ var projectData = {
                             "pitch": 0.2,
                             "rotation": 0,
                             "target": "15-13-24-months-room",
-							"text: "Go to 13-24 months room"
+							"text": "Go to 13-24 months room"
                         },
                         {
                             "id": "to-lobby-from-13-24-months-entrance",
