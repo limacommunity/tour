@@ -1134,7 +1134,7 @@ var projectData = {
                             "pitch": 0.67826781294395744,
                             "rotation": 3.1415926535897931,
                             "target": "18-3-years-old-entrance",
-							"text": "Go to 3 years old entrance)
+							"text": "Go to 3 years old entrance"
                         }
                     ],
                     "infoHotspots": [
