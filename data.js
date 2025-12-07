@@ -1377,7 +1377,8 @@ var projectData = {
         "mouseViewMode": "drag",
         "autorotateEnabled": true,
         "fullscreenButton": true,
-        "viewControlButtons": true
+        "viewControlButtons": true,
+		"customMusic": true
     }
 };
 
