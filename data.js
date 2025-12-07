@@ -475,7 +475,7 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
 							"id": "to-center-aisle-from-west-aisle",
 							"type": "link",
@@ -529,7 +529,15 @@ var projectData = {
                 "yaw": 0,
                 "fov": 1.5707963267948966
             },
-            "linkHotspots": [
+            "hotspots": [
+				"id": "to-lobby-from-welcome-center",
+				"type": "link",
+                "yaw": -0.070462596767340457,
+                "pitch": 0.5,
+                "rotation": 3.5,
+                "target": "5-lobby",
+				"text": "Go to Lobby"
+			
             ],
             "infoHotspots": [
                 {
