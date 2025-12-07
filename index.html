@@ -339,6 +339,29 @@
       background: rgba(100, 150, 100, 0.9);
     }
 	
+	.link-group-link {
+      width: 100%;
+      padding: 10px 15px;
+      background: rgba(50, 50, 50, 0.6);
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      transition: background 0.2s;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+      display: block;
+    }
+    
+    .link-group-link:last-child {
+      border-bottom: none;
+    }
+    
+    .link-group-link:hover {
+      background: rgba(100, 150, 100, 0.8);
+    }
+	
 	 /* Hotspot styles */
     .hotspot {
       width: 40px;
@@ -1006,6 +1029,46 @@
         }
         
         sceneNav.appendChild(link);
+		
+	  } else if (item.type === 'link-group') {
+        // Create link group accordion
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'group';
+        groupDiv.dataset.groupId = item.id;
+        
+        const groupHeader = document.createElement('div');
+        groupHeader.className = 'group-header' + (item.collapsed ? ' collapsed' : '');
+        groupHeader.innerHTML = `
+          <span>${item.name}</span>
+          <span class="arrow">▼</span>
+        `;
+        
+        const groupContent = document.createElement('div');
+        groupContent.className = 'group-content' + (item.collapsed ? ' collapsed' : '');
+        
+        item.links.forEach((link) => {
+          const linkElement = document.createElement('a');
+          linkElement.className = 'link-group-link';
+          linkElement.href = link.url;
+          linkElement.textContent = link.name;
+          linkElement.dataset.linkId = link.id;
+          
+          if (link.newTab !== false) {
+            linkElement.target = '_blank';
+            linkElement.rel = 'noopener noreferrer';
+          }
+          
+          groupContent.appendChild(linkElement);
+        });
+        
+        groupHeader.addEventListener('click', () => {
+          groupHeader.classList.toggle('collapsed');
+          groupContent.classList.toggle('collapsed');
+        });
+        
+        groupDiv.appendChild(groupHeader);
+        groupDiv.appendChild(groupContent);
+        sceneNav.appendChild(groupDiv);
         
       } else if (item.type === 'group') {
         // Create accordion group

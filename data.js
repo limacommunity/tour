@@ -1365,33 +1365,41 @@ var projectData = {
             ]
         },
 		{
-		  type: 'link',
-		  id: 'link-web-site',
-		  name: '🌐  Visit Our Website',
-		  url: 'https://limacommunitychurch.com',
-		  newTab: true // true = open in new tab, false = same tab
-    },
-	{
-		  type: 'link',
-		  id: 'link-message-series',
-		  name: '🌐  Recent Sermons',
-		  url: 'https://limacc.com/messageseries',
-		  newTab: true // true = open in new tab, false = same tab
-    },
-	{
-		  type: 'link',
-		  id: 'link-youtube-channel',
-		  name: '🌐  Youtube Channel',
-		  url: 'https://youtube.com/@lccn',
-		  newTab: true // true = open in new tab, false = same tab
-    },
-	{
-		  type: 'link',
-		  id: 'link-pre-register',
-		  name: '🌐  Pre-Register Kiddos for Sunday',
-		  url: 'https://www.limacommunitychurch.com/im-new',
-		  newTab: true // true = open in new tab, false = same tab
-    },
+		  type: 'link-group',
+		  id: 'unique-id',
+		  name: '🌐 Links for Next Steps',link-group-next-steps
+		  collapsed: true,  // true to start collapsed
+		  links: [
+			{
+			  type: 'link',
+			  id: 'link-web-site',
+			  name: '🌐  Visit Our Website',
+			  url: 'https://limacommunitychurch.com',
+			  newTab: true // true = open in new tab, false = same tab
+			},
+			{
+			  type: 'link',
+			  id: 'link-message-series',
+			  name: '🌐  Recent Sermons',
+			  url: 'https://limacc.com/messageseries',
+			  newTab: true // true = open in new tab, false = same tab
+			},
+			{
+			  type: 'link',
+			  id: 'link-youtube-channel',
+			  name: '🌐  Youtube Channel',
+			  url: 'https://youtube.com/@lccn',
+			  newTab: true // true = open in new tab, false = same tab
+			},
+			{
+			  type: 'link',
+			  id: 'link-pre-register',
+			  name: '🌐  Pre-Register Kiddos for Sunday',
+			  url: 'https://www.limacommunitychurch.com/im-new',
+			newTab: true // true = open in new tab, false = same tab
+			},
+		  ]
+		},
     ],
     "name": "Lima Community Church Virtual Tour",
     "settings": {
