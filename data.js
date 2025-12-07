@@ -356,8 +356,8 @@ var projectData = {
 							"id": "to-sanctuary-east-from-center-aisle",
 							"type": "link",
                             "yaw": 0.50687356034744013,
-                            "pitch": 1.53,
-                            "rotation": 0,
+                            "pitch": .5,
+                            "rotation": 1.54,
                             "target": "7-sanctuary-east-aisle",
 							"text": "Go to East Aisle"
                         },
