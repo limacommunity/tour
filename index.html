@@ -947,8 +947,9 @@
           // Find target scene index
           const targetIndex = allScenes.findIndex(s => s.id === hotspot.target);
           if (targetIndex !== -1) {
-            scenesData[targetIndex].switchTo();
-            switchToSceneMusic(targetIndex);
+            //scenesData[targetIndex].switchTo();
+            switchScene(targetIndex);
+			switchToSceneMusic(targetIndex);
             currentSceneIndex = targetIndex;
             
             // Update active button in menu
@@ -993,7 +994,8 @@
         }
         
         button.addEventListener('click', () => {
-          scenesData[globalSceneIndex].switchTo();
+          // scenesData[globalSceneIndex].switchTo();
+		  switchScene(globalSceneIndex);
           switchToSceneMusic(globalSceneIndex);
           currentSceneIndex = globalSceneIndex;
           
@@ -1099,7 +1101,8 @@
           }
           
           button.addEventListener('click', () => {
-            scenesData[globalSceneIndex].switchTo();
+            //scenesData[globalSceneIndex].switchTo();
+			switchScene(globalSceneIndex);
             switchToSceneMusic(globalSceneIndex);
             currentSceneIndex = globalSceneIndex;
             
