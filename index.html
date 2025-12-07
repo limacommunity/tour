@@ -878,6 +878,12 @@
           
           if (hotspot.title) {
             const title = document.createElement('div');
+			//
+			var icon = document.createElement('img');
+			icon.src = 'img/info.png';
+			icon.classList.add('info-hotspot-icon');
+			iconWrapper.appendChild(icon);
+			//
             title.className = 'info-popup-title';
             title.textContent = hotspot.title;
             popup.appendChild(title);
