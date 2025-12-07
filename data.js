@@ -1381,7 +1381,7 @@ var projectData = {
 	{
 		  type: 'link',
 		  id: 'link-youtube-channel',
-		  name: '🌐  Youtube Channel youtube.com/@lccn',
+		  name: '🌐  Youtube Channel',
 		  url: 'https://youtube.com/@lccn',
 		  newTab: true // true = open in new tab, false = same tab
     },
