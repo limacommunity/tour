@@ -1217,18 +1217,24 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.32274857071630514,
+                            "id": "to-4-yrs-old-kindergarten-worship",
+							"type": "link",
+							"yaw": 0.32274857071630514,
                             "pitch": 0.20994364180122105,
                             "rotation": 4.71238898038469,
-                            "target": "22-4-yrs-old-kindergarten-worship"
+                            "target": "22-4-yrs-old-kindergarten-worship",
+							"text": "Go to 4 yrs old to Kindergarten worship (upTOWN)"
                         },
                         {
-                            "yaw": 0.33089307956692515,
+                            "id": "to-lobby-from-uptown-entrance",
+							"type": "link",
+							"yaw": 0.33089307956692515,
                             "pitch": 0.67598800365473011,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -1262,18 +1268,24 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": -2.7189634387158819,
+                            "id": "to-4-yrs-old-to-kindergarten-entrance-from-worship",
+							"type": "link",
+							"yaw": -2.7189634387158819,
                             "pitch": 0.14408319351288057,
                             "rotation": 7.0685834705770345,
-                            "target": "21-4-yrs-old-kindergarten-entrance"
+                            "target": "21-4-yrs-old-kindergarten-entrance",
+							"text": "Return to entrance for 4 yrs old to Kindergarten (upTOWN)"
                         },
                         {
-                            "yaw": 0.061420262087638733,
+                            "id": "to-lobby-from-4-yrs-old-to-kindergarten-entrance",
+							"type": "link",
+							"yaw": 0.061420262087638733,
                             "pitch": 0.80509939271600928,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -1310,18 +1322,24 @@ var projectData = {
                 "pitch": 0.015228872331249477,
                 "fov": 1.5091423593016802
             },
-            "linkHotspots": [
+            "hotspots": [
                 {
-                    "yaw": 1.4268580749166109,
+					"id": "to-lobby-from-1st-to-5th-grade",
+					"type": "link",
+					"yaw": 1.4268580749166109,
                     "pitch": 0.056401947054457224,
                     "rotation": 4.71238898038469,
-                    "target": "5-lobby"
+                    "target": "5-lobby",
+					"text": "Go to Lobby"
                 },
                 {
-                    "yaw": -0.048405714760523466,
+                    "id": "to-lobby-from-1st-to-5th-gradeb",
+					"type": "link",
+					"yaw": -0.048405714760523466,
                     "pitch": 0.5796542936051452,
                     "rotation": 9.42477796076938,
-                    "target": "5-lobby"
+                    "target": "5-lobby",
+					"text": "Go to Lobby"
                 }
             ],
             "infoHotspots": [
