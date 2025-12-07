@@ -1371,6 +1371,20 @@ var projectData = {
 		  url: 'https://limacommunitychurch.com',
 		  newTab: true // true = open in new tab, false = same tab
     },
+	{
+		  type: 'link',
+		  id: 'link-message-series',
+		  name: '🌐  Recent Sermons',
+		  url: 'https://limacc.com/messageseries',
+		  newTab: true // true = open in new tab, false = same tab
+    },
+	{
+		  type: 'link',
+		  id: 'link-youtube-channel',
+		  name: '🌐  Youtube Channel youtube.com/@lccn',
+		  url: 'https://youtube.com/@lccn',
+		  newTab: true // true = open in new tab, false = same tab
+    },
     ],
     "name": "Lima Community Church Virtual Tour",
     "settings": {
