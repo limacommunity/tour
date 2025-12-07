@@ -642,18 +642,24 @@ var projectData = {
                 "yaw": 0,
                 "fov": 1.5707963267948966
             },
-            "linkHotspots": [
+            "hotspots": [
                 {
+					"id": "to-1st-to-5th-grade-from-first-time-families",
+					"type": "link",
                     "yaw": 0.73435225133849613,
                     "pitch": 0.57477341784129088,
-                    "rotation": 1.5707963267948966,
-                    "target": "23-1st-to-5th-grade"
+                    "rotation": -.2,
+                    "target": "23-1st-to-5th-grade",
+					"text": "Go to 1st to 5th Grade (DOWNTOWN)"
                 },
                 {
-                    "yaw": 1.7406199057703446,
+                    "id": "to-1st-to-5th-grade-from-checkin-counter",
+					"type": "link",
+					"yaw": 1.7406199057703446,
                     "pitch": 0.4,
-                    "rotation": 5.497787143782138,
-                    "target": "23-1st-to-5th-grade"
+                    "rotation": 1.54,
+                    "target": "23-1st-to-5th-grade",
+					"text": "Go to 1st to 5th Grade (DOWNTOWN)"
                 },
                 {
                     "yaw": -0.76959574484604509,
