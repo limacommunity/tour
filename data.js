@@ -530,15 +530,16 @@ var projectData = {
                 "fov": 1.5707963267948966
             },
             "hotspots": [
-				"id": "to-lobby-from-welcome-center",
-				"type": "link",
-                "yaw": -0.070462596767340457,
-                "pitch": 0.5,
-                "rotation": 3.5,
-                "target": "5-lobby",
-				"text": "Go to Lobby"
-			
-            ],
+				{
+					"id": "to-lobby-from-welcome-center",
+					"type": "link",
+					"yaw": -0.070462596767340457,
+					"pitch": 0.5,
+					"rotation": 3.5,
+					"target": "5-lobby",
+					"text": "Go to Lobby"
+				}
+			],
             "infoHotspots": [
                 {
                     "yaw": -0.29638848344801438,
@@ -589,18 +590,24 @@ var projectData = {
                 "yaw": 0,
                 "fov": 1.5707963267948966
             },
-            "linkHotspots": [
+            "hotspots": [
                 {
-                    "yaw": -0.091679241458709981,
+                    "id": "to-lobby-from-cafe",
+					"type": "link",
+					"yaw": -0.091679241458709981,
                     "pitch": 0.67135416733235331,
-                    "rotation": 3.1415926535897931,
-                    "target": "5-lobby"
+                    "rotation": 2.4,
+                    "target": "5-lobby",
+					"text": "Go to Lobby"
                 },
                 {
+					"id": "to-first-time-families-from-cafe",
+					"type": "link",
                     "yaw": -0.85918146163502662,
                     "pitch": 0.37963719085212944,
                     "rotation": 4.71238898038469,
                     "target": "11-first-time-families"
+					"text": "Go to First Time Families Counter"
                 }
             ],
             "infoHotspots": [
