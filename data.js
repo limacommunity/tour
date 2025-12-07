@@ -186,7 +186,7 @@ var projectData = {
 						"type": "link",
 						"yaw": -0.24326155404453687,
 						"pitch": 0.10149321406764145,
-						"rotation": 4.625,
+						"rotation": 0,
 						"target": "5-lobby",
 						"text": "Go to Lobby"
 					  }
@@ -228,15 +228,16 @@ var projectData = {
 							"type": "link",
                             "yaw": -0.12630851856902048,
                             "pitch": 0.073418152126320635,
-                            "rotation": 4.7,
-                            "target": "5-lobby"
+                            "rotation": 0,
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         },
 						{
 						"id": "to-lobby-from-east-parking-lot2",
 						"type": "link",
 						"yaw": 0.71086312039032507,
 						"pitch": 0.069592534389423477,
-						"rotation": 3.9,
+						"rotation": -.3,
 						"target": "5-lobby",
 						"text": "Go to Lobby"
 					  }
