@@ -309,8 +309,8 @@ var projectData = {
 				{
 					"id": "to-welcome-center-in-lobby-from-lobby",
 					"type": "link",
-                    "yaw": -0.96766496812846015,
-                    "pitch": 0.44161605610973353,
+                    "yaw": -0.7,
+                    "pitch": 0.4,
                     "rotation": 4.72,
                     "target": "9-welcome-center-in-lobby",
 					"text": "Go to Welcome Center"
