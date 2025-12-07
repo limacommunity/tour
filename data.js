@@ -753,18 +753,24 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.18602230309320866,
+                            "id": "to-birth-to-13-months-room",
+							"type": "link",
+							"yaw": 0.18602230309320866,
                             "pitch": 0.1,
                             "rotation": 0,
-                            "target": "13-birth-to-13-months-room"
+                            "target": "13-birth-to-13-months-room",
+							"text": "Go to Birth to 13 months room"
                         },
                         {
-                            "yaw": 0.18167654413713308,
+                            "id": "to-lobby-from-birth-to-13-months-entrance",
+							"type": "link",
+							"yaw": 0.18167654413713308,
                             "pitch": 0.4,
                             "rotation": 9.42477796076938,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -798,12 +804,15 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.076154437921982066,
+                            "id": "to-lobby-from-birth-to-13-months-room",
+							"type": "link",
+							"yaw": 0.076154437921982066,
                             "pitch": 0.4,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -837,18 +846,24 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.46272167232156569,
+                            "id": "to-13-24-months-room",
+							"type": "link",
+							"yaw": 0.46272167232156569,
                             "pitch": 0.2,
                             "rotation": 0,
-                            "target": "15-13-24-months-room"
+                            "target": "15-13-24-months-room",
+							"text: "Go to 13-24 months room"
                         },
                         {
-                            "yaw": 0.459757754910072,
+                            "id": "to-lobby-from-13-24-months-entrance",
+							"type": "link",
+							"yaw": 0.459757754910072,
                             "pitch": 0.5,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -882,12 +897,15 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.038548629469383755,
+                            "id": "to-lobby-from-13-24-months-room",
+							"type": "link",
+							"yaw": 0.038548629469383755,
                             "pitch": 0.67518503229938176,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         }
                     ],
                     "infoHotspots": [
@@ -921,24 +939,33 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": -0.046651789863325632,
+                            "id": "to-2-years-old-room",
+							"type": "link",
+							"yaw": -0.046651789863325632,
                             "pitch": 0.25449819784684635,
                             "rotation": 1.5707963267948966,
-                            "target": "17-2-years-old-room"
+                            "target": "17-2-years-old-room",
+							"text": "Go to 2 years old room"
                         },
                         {
-                            "yaw": -0.043769957784906666,
+                            "id": "to-lobby-from-2-years-entrance",
+							"type": "link",
+							"yaw": -0.043769957784906666,
                             "pitch": 0.66654691564020929,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         },
                         {
-                            "yaw": -0.40817930391612833,
+                            "id": "to-tinytown-story-room-from-2-old-entrance",
+							"type": "link",
+							"yaw": -0.40817930391612833,
                             "pitch": 0.22612074977683605,
                             "rotation": 0,
-                            "target": "20-tinytown-story-room"
+                            "target": "20-tinytown-story-room",
+							"text": "Go to tinytown Story Room"
                         }
                     ],
                     "infoHotspots": [
@@ -972,12 +999,15 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.053214060698175913,
+                            "id": "to-2-years-entrance",
+							"type": "link",
+							"yaw": 0.053214060698175913,
                             "pitch": 0.68042178636051709,
                             "rotation": 3.1415926535897931,
-                            "target": "16-2-years-old-entrance"
+                            "target": "16-2-years-old-entrance",
+							"text": "Go to 2 years old entrance"
                         }
                     ],
                     "infoHotspots": [
@@ -1011,24 +1041,33 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": 0.063234925524401575,
+                            "id": "to-3-years-old-room",
+							"type": "link",
+							"yaw": 0.063234925524401575,
                             "pitch": 0.073871403828729143,
                             "rotation": 4.71238898038469,
-                            "target": "19-3-years-old-room"
+                            "target": "19-3-years-old-room",
+							"text": "Go to 3 years old room"
                         },
                         {
-                            "yaw": 0.26637882791612988,
+                            "id": "to-lobby-from-3-years-entrance",
+							"type": "link",
+							"yaw": 0.26637882791612988,
                             "pitch": 0.37633202687520928,
                             "rotation": 9.42477796076938,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         },
                         {
-                            "yaw": 0.92989336548182955,
+                            "id": "to-tinytown-story-room-from-3-years-entrance",
+							"type": "link",
+							"yaw": 0.92989336548182955,
                             "pitch": 0.16496144259158285,
                             "rotation": 1.5707963267948966,
-                            "target": "20-tinytown-story-room"
+                            "target": "20-tinytown-story-room",
+							"text": "Go to tinytown Story Room"
                         }
                     ],
                     "infoHotspots": [
@@ -1062,18 +1101,24 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": -0.05111325267300515,
+                            "id": "to-lobby-from-3-years-entrance",
+							"type": "link",
+							"yaw": -0.05111325267300515,
                             "pitch": 0.67440138757870294,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         },
                         {
-                            "yaw": 0.33137662807807544,
+                            "id": "to-3-years-entrance-from-3-years-old-room",
+							"type": "link",
+							"yaw": 0.33137662807807544,
                             "pitch": 0.67826781294395744,
                             "rotation": 3.1415926535897931,
-                            "target": "18-3-years-old-entrance"
+                            "target": "18-3-years-old-entrance",
+							"text": "Go to 3 years old entrance)
                         }
                     ],
                     "infoHotspots": [
@@ -1107,12 +1152,15 @@ var projectData = {
                         "yaw": 0,
                         "fov": 1.5707963267948966
                     },
-                    "linkHotspots": [
+                    "hotspots": [
                         {
-                            "yaw": -0.07007485794258983,
+                            "id": "to-lobby from-tinytown-story-room",
+							"type": "link",
+							"yaw": -0.07007485794258983,
                             "pitch": 0.6926387284890243,
                             "rotation": 3.1415926535897931,
-                            "target": "5-lobby"
+                            "target": "5-lobby",
+							"text": "Go to Lobby"
                         },
                         {
                             "yaw": -0.84715566633149564,
@@ -1121,10 +1169,13 @@ var projectData = {
                             "target": "16-2-years-old-entrance"
                         },
                         {
-                            "yaw": 0.44165767780782872,
+                            "id": "to-3-years-entrance-from-tinytown-story-room",
+							"type": "link",
+							"yaw": 0.44165767780782872,
                             "pitch": 0.23414078765906865,
                             "rotation": 6.2831853071795862,
-                            "target": "18-3-years-old-entrance"
+                            "target": "18-3-years-old-entrance",
+							"text": "Go to 3 years old entrance"
                         }
                     ],
                     "infoHotspots": [
