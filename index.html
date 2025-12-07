@@ -1365,6 +1365,8 @@
   }
 
   function updateSceneName(scene) {
+    consolelog(scene);
+	consolelog(scenesData[scene]);
     sceneNameElement.innerHTML = scenesData[scene].data.name;
   }
   
