@@ -606,7 +606,7 @@ var projectData = {
                     "yaw": -0.85918146163502662,
                     "pitch": 0.37963719085212944,
                     "rotation": 4.71238898038469,
-                    "target": "11-first-time-families"
+                    "target": "11-first-time-families",
 					"text": "Go to First Time Families Counter"
                 }
             ],
