@@ -1312,8 +1312,13 @@ var projectData = {
                 }
             ]
         },
-        {
-            "type": "scene",
+		{
+		  "type": "group",
+          "id": "23-1st-to-5th-grade-group",
+          "name": "1st to 5th Grade (DOWNTOWN)",
+          "collapsed": true,
+          "scenes": [
+          {
             "id": "23-1st-to-5th-grade",
             "name": "1st to 5th Grade (DOWNTOWN)",
             "levels": [
@@ -1365,9 +1370,8 @@ var projectData = {
             ]
         },
 		{
-            "type": "scene",
             "id": "24-klub45",
-            "name": "1st to 5th Grade (DOWNTOWN)",
+            "name": "klub45 (DOWNTOWN)",
             "levels": [
                 {
                     "tileSize": 256,
@@ -1415,6 +1419,8 @@ var projectData = {
             ],
             "infoHotspots": [
             ]
+		  ]
+		},
         },
 		{
 		  type: 'link-group',
