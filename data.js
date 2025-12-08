@@ -1447,23 +1447,30 @@ var projectData = {
 			{
 			  type: 'link',
 			  id: 'link-message-series',
-			  name: '🌐  Recent Sermons',
+			  name: '📖  Recent Sermons',
 			  url: 'https://limacc.com/messageseries',
 			  newTab: true // true = open in new tab, false = same tab
 			},
 			{
 			  type: 'link',
 			  id: 'link-youtube-channel',
-			  name: '🌐  Youtube Channel',
+			  name: '▶  Youtube Channel',
 			  url: 'https://youtube.com/@lccn',
 			  newTab: true // true = open in new tab, false = same tab
 			},
 			{
 			  type: 'link',
 			  id: 'link-pre-register',
-			  name: '🌐  Pre-Register Kiddos for Sunday',
+			  name: '👨‍👩‍👧‍👦  Pre-Register Kiddos for Sunday',
 			  url: 'https://www.limacommunitychurch.com/im-new',
-			newTab: true // true = open in new tab, false = same tab
+			  newTab: true // true = open in new tab, false = same tab
+			},
+			{
+			  type: 'link',
+			  id: 'link-christmas2025',
+			  name: '✨  Christmas Services',
+			  url: 'https://www.limacommunitychurch.com/christmas25',
+			  newTab: true // true = open in new tab, false = same tab
 			},
 		  ]
 		},
