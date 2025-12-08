@@ -1370,7 +1370,7 @@ var projectData = {
 					"type": "link",
 					"yaw": 2.5,
                     "pitch": 0.05,
-                    "rotation": -.5,
+                    "rotation": 1.54,
                     "target": "24-klub45",
 					"text": "Go to klub45"
                 }
