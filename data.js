@@ -1365,6 +1365,58 @@ var projectData = {
             ]
         },
 		{
+            "type": "scene",
+            "id": "24-klub45",
+            "name": "1st to 5th Grade (DOWNTOWN)",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+			  "pitch": 0,
+			  "yaw": 0,
+			  "fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-lobby-from-klub45",
+					"type": "link",
+					"yaw": -0.18814640897397616,
+					"pitch": 0.5529512235877263,
+					"rotation": 4.71238898038469,
+                    "target": "5-lobby",
+					"text": "Go to Lobby"
+                },
+                {
+                    "id": "to-downtown-from-klub45",
+					"type": "link",
+					"yaw": -0.048405714760523466,
+                    "pitch": 0.5796542936051452,
+                    "rotation": 9.42477796076938,
+                    "target": "5-downtown",
+					"text": "Go to DOWNTOWN"
+                }
+            ],
+            "infoHotspots": [
+            ]
+        },
+		{
 		  type: 'link-group',
 		  id: 'link-group-next-steps',
 		  name: '🌐 Links for Next Steps',
