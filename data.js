@@ -1368,9 +1368,9 @@ var projectData = {
 				{
                     "id": "to-klub45-from-1st-to-5th-gradeb",
 					"type": "link",
-					"yaw": 3.54,
-                    "pitch": 0.5796542936051452,
-                    "rotation": 1.54,
+					"yaw": 2.5,
+                    "pitch": 0.05,
+                    "rotation": -.5,
                     "target": "24-klub45",
 					"text": "Go to klub45"
                 }
