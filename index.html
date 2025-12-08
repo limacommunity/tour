@@ -669,6 +669,8 @@
         
         sceneMusic = new Audio(scene.music);
         sceneMusic.volume = volumeRange.value / 100;
+		//override sceneMusicVolume to .85
+		sceneMusic.volume = 0.85;
         
         sceneMusic.addEventListener('ended', () => {
           // Return to default music when scene music ends
