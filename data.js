@@ -1419,10 +1419,10 @@ var projectData = {
             ],
             "infoHotspots": [
             ]
+		},
 		  ]
 		},
-        },
-		{
+        {
 		  type: 'link-group',
 		  id: 'link-group-next-steps',
 		  name: '🌐 Links for Next Steps',
