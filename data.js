@@ -522,6 +522,7 @@ var projectData = {
             "type": "scene",
             "id": "9-welcome-center-in-lobby",
             "name": "Welcome Center in Lobby",
+			"music": "assets/welcome-center.mp3",
             "levels": [
                 {
                     "tileSize": 256,
