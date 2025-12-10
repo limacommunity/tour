@@ -380,18 +380,39 @@ var projectData = {
 							"text": "Go to Welcome Center"
                         },
 						{
-							"id": "sermons-link",
+/*							"id": "sermons-link",
 							"type": "info",
-							"yaw": .2,
+							"yaw": 0,
                             "pitch": .1,
 							"rotation": 0,
                             "title": "Sermons",
                             "text": "Visit https://limacc.com/messageseries for recent messages."
+*/
+							"id": "sermons-santuary-center-aisle-worship",
+							"type": "youtube",
+							"yaw": 0,
+							"pitch": 0.1,
+							"text": "Sermons",
+							"title": "Sermons - Press [ ] in lower corner for full screen",
+								"playlist": [
+								  {
+									"videoId": "FwokiOJ-QIA",      // YouTube video ID
+									"title": "Peace",      // Display name
+									"start": 1781,                     // Optional: start time (seconds)
+									"end": 3909                       // Optional: end time (seconds)
+								  },
+								  {
+									"videoId": "qOWStpwmcPw",
+									"title": "Hope",
+									"start": 2862,
+									"end": 4343
+								  }
+								]
 						},
 						{
-							"id": "youtube-santuary-center-aisle-worship",
+							"id": "worship-songs-santuary-center-aisle-worship",
 							"type": "youtube",
-							"yaw": -.2,
+							"yaw": -.3,
 							"pitch": 0.1,
 							"text": "Worship Songs",
 							"title": "Worship Songs - Press [ ] in lower corner for full screen",
