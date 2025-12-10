@@ -389,20 +389,12 @@ var projectData = {
                             "text": "Visit https://limacc.com/messageseries for recent messages."
 						},
 						{
-							"id": "worship-set-link",
-							"type": "info",
-							"yaw": -.2,
-                            "pitch": .1,
-							"rotation": 0,
-                            "title": "Youtube Channel",
-                            "text": "https://youtube.com/@lccn for recent services."
-						},						
-						{
 							"id": "youtube-santuary-center-aisle-worship",
 							"type": "youtube",
 							"yaw": -.2,
 							"pitch": 0.1,
-						"title": "Worship Songs - Press [ ] in lowercorner for full screen",
+							"text": "Worship Songs"
+							"title": "Worship Songs - Press [ ] in lowercorner for full screen",
 								"playlist": [
 								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
