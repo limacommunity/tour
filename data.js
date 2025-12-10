@@ -394,7 +394,7 @@ var projectData = {
 							"yaw": -.2,
 							"pitch": 0.1,
 							"text": "Worship Songs",
-							"title": "Worship Songs - Press [ ] in lowercorner for full screen",
+							"title": "Worship Songs - Press [ ] in lower corner for full screen",
 								"playlist": [
 								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
