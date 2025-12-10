@@ -399,13 +399,13 @@ var projectData = {
 								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
 									"title": "Holy Forever",      // Display name
-									"start": 960,                     // Optional: start time (seconds)
+									"start": 964,                     // Optional: start time (seconds)
 									"end": 1259                       // Optional: end time (seconds)
 								  },
 								  {
 									"videoId": "FwokiOJ-QIA",
 									"title": "Peace Be Still",
-									"start": 686,
+									"start": 690,
 									"end": 955
 								  }
 								]
