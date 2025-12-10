@@ -396,16 +396,34 @@ var projectData = {
 							"title": "Sermons - Press [ ] in lower corner for full screen",
 								"playlist": [
 								  {
-									"videoId": "FwokiOJ-QIA",      // YouTube video ID
-									"title": "Peace",      // Display name
-									"start": 1781,                     // Optional: start time (seconds)
-									"end": 3909                       // Optional: end time (seconds)
+									"videoId": "O9o4Rbw6syc",      // YouTube video ID
+									"title": "DNA",      // Display name
+									"start": 1,                     // Optional: start time (seconds)
+									"end": 2772                       // Optional: end time (seconds)
 								  },
 								  {
-									"videoId": "qOWStpwmcPw",
-									"title": "Hope",
-									"start": 2862,
-									"end": 4343
+									"videoId": "hkXpgGQqOSY",
+									"title": "Keeping It Real - Justin",
+									"start": 1,
+									"end": 2237
+								  },
+								  {
+									"videoId": "1eRJXX4-C-A",
+									"title": "Keeping It Real - Chip",
+									"start": 1,
+									"end": 2695
+								  },
+								  {
+									"videoId": "UwNX0uAF7uE",
+									"title": "Joy FULL - Brad",
+									"start": 1,
+									"end": 1804
+								  },
+								  {
+									"videoId": "TFP73tbP-fU",
+									"title": "The Twelve - Elizabeth",
+									"start": 1,
+									"end": 1861
 								  }
 								]
 						},
