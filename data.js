@@ -393,13 +393,13 @@ var projectData = {
 							"type": "youtube",
 							"yaw": -.2,
 							"pitch": 0.1,
-							"text": "Worship Songs"
+							"text": "Worship Songs",
 							"title": "Worship Songs - Press [ ] in lowercorner for full screen",
 								"playlist": [
 								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
 									"title": "Holy Forever",      // Display name
-									"start": 957,                     // Optional: start time (seconds)
+									"start": 960,                     // Optional: start time (seconds)
 									"end": 1259                       // Optional: end time (seconds)
 								  },
 								  {
