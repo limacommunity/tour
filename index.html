@@ -1009,8 +1009,14 @@
 	// Create hotspot elements
     function createHotspot(hotspot, sceneIndex) {
       const wrapper = document.createElement('div');
-      wrapper.className = 'hotspot' + (hotspot.type === 'link' ? ' link-hotspot' ? ' youtube' : '');
+      wrapper.className = 'hotspot' + (hotspot.type === 'link' ? ' link-hotspot' : '');
       wrapper.dataset.hotspotId = hotspot.id;
+	  
+	  if (hotspot.type === 'link') {
+        wrapper.classList.add('link-hotspot');
+      } else if (hotspot.type === 'youtube') {
+        wrapper.classList.add('youtube-hotspot');
+      }
       
       if (hotspot.type === 'youtube') {
 	    const icon = document.createElement('div');
