@@ -405,7 +405,7 @@ var projectData = {
 								  {
 									"videoId": "FwokiOJ-QIA",
 									"title": "Peace Be Still",
-									"start": 690,
+									"start": 694,
 									"end": 955
 								  }
 								]
