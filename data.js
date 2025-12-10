@@ -401,8 +401,8 @@ var projectData = {
 							"id": "youtube-santuary-center-aisle-worship",
 							"type": "youtube",
 							"yaw": -.2,
-							"pitch": 0.2,
-							"title": "Worship Songs",
+							"pitch": 0.1,
+						"title": "Worship Songs - Press [ ] in lowercorner for full screen",
 								"playlist": [
 								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
