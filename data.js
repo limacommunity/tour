@@ -396,7 +396,29 @@ var projectData = {
 							"rotation": 0,
                             "title": "Youtube Channel",
                             "text": "https://youtube.com/@lccn for recent services."
+						},						
+						{
+							"id": "youtube-santuary-center-aisle-worship",
+							"type": "youtube",
+							"yaw": -.2,
+							"pitch": 0.2,
+							"title": "Worship Songs",
+								"playlist": [
+								  {
+									"videoId": "FwokiOJ-QIA",      // YouTube video ID
+									"title": "Holy Forever",      // Display name
+									"start": 15:57,                     // Optional: start time (seconds)
+									"end": 20:59                       // Optional: end time (seconds)
+								  },
+								  {
+									"videoId": "FwokiOJ-QIA",
+									"title": "Peace Be Still",
+									"start": 11:26,
+									"end": 15:55
+								  }
+								]
 						}
+						
                     ],
                     "infoHotspots": [
                         {
