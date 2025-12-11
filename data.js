@@ -1919,7 +1919,7 @@ var projectData = {
 					"yaw": 0.5237331142367712,
 					"pitch": 0.5169826091903875,
 					"rotation": 3.141592653589793,
-					"target": "31-journeybuildingexterior",
+					"target": "31-journey-building-exterior",
 					"text": "Go to exterior of Journey Building"
 				}
             ],
