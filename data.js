@@ -1926,6 +1926,56 @@ var projectData = {
             "infoHotspots": [
             ]
 		  },
+		  "id": "33-jb401",
+            "name": "Journey Building - Room JB401",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"pitch": 0,
+				"yaw": 0,
+				"fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-jb401",
+					"type": "link",
+				    "yaw": 0.8990443322524015,
+					"pitch": 0.2976799765009126,
+					"rotation": 0,
+					"target": "32-jb400",
+					"text": "Go to Journey Building Room 400"
+				},
+				{
+					"id": "to-jb401b",
+					"type": "link",
+					"yaw": -0.5140325128159837,
+					"pitch": 0.06938638398686159,
+					"rotation": 0.7853981633974483,
+					"target": "32-jb400",
+					"text":  "Go to Journey Building Room 400"
+				}
+            ],
+            "infoHotspots": [
+            ]
+		  },
 		  
 		  ]
 		},
