@@ -1545,13 +1545,13 @@ var projectData = {
 					"text": "Go to Lobby in Main Building"
 				},
 				{
-					"id": "to-axis-cafe",
+					"id": "to-axis-game-room",
 					"type": "link",
 					"yaw": 0.9505944768735493,
 					"pitch": 0.23223894970148962,
 					"rotation": 1.5707963267948966,
-					"target": "30-axis-cafe",
-					"text": "Go to AXIS Cafe"
+					"target": "29-axis-game-room",
+					"text": "Go to AXIS Game Room"
 				},
 				{
 					"id": "to-axis-gym",
