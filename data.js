@@ -1527,22 +1527,22 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-axis-cafe2",
+					"id": "to-lobby-from-axis-lobby",
 					"type": "link",
 					"yaw": -0.4302371642353897,
 					"pitch": 0.1974509920404266,
 					"rotation": 0,
-					"target": "30-axis-cafe",
-					"text": "Go to AXIS Cafe2"
+					"target": "5-lobby",
+					"text": "Go to Lobby in Main Building"
 				},
 				{
-					"id": "to-axis-game-room-2",
+					"id": "to-lobby-from-axis-lobby-2",
 					"type": "link",
 					"yaw": 0.4377334056592268,
 					"pitch": 0.2538075754841458,
 					"rotation": 0,
-					"target": "29-axis-game-room",
-					"text": "Go to AXIS Game Room2"
+					"target": "5-lobby",
+					"text": "Go to Lobby in Main Building"
 				},
 				{
 					"id": "to-axis-cafe",
@@ -1711,7 +1711,7 @@ var projectData = {
             ]
 		  },
 		  {
-            "id": "28-axis-cafe",
+            "id": "30-axis-cafe",
             "name": "AXIS Cafe",
             "levels": [
                 {
@@ -1740,7 +1740,7 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-axis-lobby-from-axis-gym",
+					"id": "to-axis-lobby-from-axis-cafe",
 					"type": "link",
 					"yaw": -0.025050479028431383,
 					"pitch": 0.5080375673542097,
