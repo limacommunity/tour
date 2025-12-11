@@ -436,6 +436,12 @@ var projectData = {
 							"title": "Worship Songs - Press [ ] in lower corner for full screen",
 								"playlist": [
 								  {
+									"videoId": "kfhCbhhjDIM",      // YouTube video ID
+									"title": "Break Every Chain",      // Display name
+									"start": 2370,                     // Optional: start time (seconds)
+									"end": 2795                       // Optional: end time (seconds)
+								  },
+								  {
 									"videoId": "FwokiOJ-QIA",      // YouTube video ID
 									"title": "Holy Forever",      // Display name
 									"start": 968,                     // Optional: start time (seconds)
