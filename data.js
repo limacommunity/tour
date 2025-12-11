@@ -620,8 +620,8 @@ var projectData = {
 				{
 					"id": "to-axis-lobby-from-welcome-center",
 					"type": "link",
-					"yaw": -0.070462596767340457,
-					"pitch": -1,
+					"yaw": -0.11462596767340457,
+					"pitch": 0.5,
 					"rotation": 3,
 					"target": "26-axis-lobby",
 					"text": "Go to AXIS Building Lobby"
@@ -629,8 +629,8 @@ var projectData = {
 				{
 					"id": "to-journey-building-from-welcome-center",
 					"type": "link",
-					"yaw": -0.050462596767340457,
-					"pitch": -1,
+					"yaw": -0.100462596767340457,
+					"pitch": 0.5,
 					"rotation": 3,
 					"target": "31-journey-building-exterior",
 					"text": "Go to Journey Building"
