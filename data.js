@@ -1611,7 +1611,49 @@ var projectData = {
 					"pitch": 0.510885899113525,
 					"rotation": 1.5707963267948966,
 					"target": "26-axis-lobby",
-					"text": "Go to AXIS Venue"
+					"text": "Go to AXIS Lobby"
+				}	
+            ],
+            "infoHotspots": [
+            ]
+		  },
+		  {
+            "id": "28-axis-gym",
+            "name": "AXIS Gym",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"pitch": 0,
+				"yaw": 0,
+				"fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-axis-lobby-from-axis-gym",
+					"type": "link",
+					"yaw": -0.024518223323850563,
+					"pitch": 0.5107510215417683,
+					"rotation": 3.141592653589793,
+					"target": "26-axis-lobby",
+					"text": "Go to AXIS Lobby"
 				}	
             ],
             "infoHotspots": [
