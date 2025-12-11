@@ -2020,7 +2020,7 @@ var projectData = {
 					"type": "link",
 					"yaw": 2.3852729988617956,
 					"pitch": 0.18407070022738736,
-					"rotation": 0.7853981633974483,
+					"rotation": 3.14,
 					"target": "32-jb400"
 				}
             ],
