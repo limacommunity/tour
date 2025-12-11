@@ -621,8 +621,8 @@ var projectData = {
 					"id": "to-axis-lobby-from-welcome-center",
 					"type": "link",
 					"yaw": -1,
-					"pitch": 0,
-					"rotation": -.5,
+					"pitch": .2,
+					"rotation": 0,
 					"target": "26-axis-lobby",
 					"text": "Go to AXIS Building Lobby"
 				},
@@ -630,8 +630,8 @@ var projectData = {
 					"id": "to-journey-building-from-welcome-center",
 					"type": "link",
 					"yaw": -.9,
-					"pitch": 0,
-					"rotation": -.5,
+					"pitch": .2,
+					"rotation": 0,
 					"target": "31-journey-building-exterior",
 					"text": "Go to Journey Building"
 				}
