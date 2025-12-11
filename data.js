@@ -1659,6 +1659,99 @@ var projectData = {
             "infoHotspots": [
             ]
 		  },
+		  {
+            "id": "29-axis-game-room",
+            "name": "AXIS Game Room",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"pitch": 0,
+				"yaw": 0,
+				"fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-axis-axis-cafe-from-axis-game-room",
+					"type": "link",
+					"yaw": 0.1773335485484715,
+					"pitch": 0.06996483346833138,
+					"rotation": 0,
+					"target": "30-axis-cafe",
+					"text": "Go to AXIS Cafe"
+				},
+				{
+					"id": "to-axis-axis-lobby-from-axis-game-room",
+					"type": "link",
+					"yaw": 0.0012266168198475924,
+					"pitch": 0.5287729634017886,
+					"rotation": 3.141592653589793,
+					"target": "26-axis-lobby",
+					"text": "Go to AXIS Lobby"
+				}
+            ],
+            "infoHotspots": [
+            ]
+		  },
+		  {
+            "id": "28-axis-cafe",
+            "name": "AXIS Cafe",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"pitch": 0,
+				"yaw": 0,
+				"fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-axis-lobby-from-axis-gym",
+					"type": "link",
+					"yaw": -0.025050479028431383,
+					"pitch": 0.5080375673542097,
+					"rotation": 3.141592653589793,
+					"target": "0-25-axislobby"
+					"text": "Go to AXIS Lobby"
+				}	
+            ],
+            "infoHotspots": [
+            ]
+		  },
 		  
 		  ]
 		},
