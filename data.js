@@ -1745,7 +1745,7 @@ var projectData = {
 					"yaw": -0.025050479028431383,
 					"pitch": 0.5080375673542097,
 					"rotation": 3.141592653589793,
-					"target": "0-25-axislobby"
+					"target": "26-axis-lobby",
 					"text": "Go to AXIS Lobby"
 				}	
             ],
