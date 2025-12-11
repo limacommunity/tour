@@ -1907,7 +1907,7 @@ var projectData = {
 				{
 					"id": "to-jbkitchen",
 					"type": "link",
-					"yaw": .8,
+					"yaw": .15,
 					"pitch": 0.033329497207959875,
 					"rotation": 0,
 					"target": "36-jbkitchen",
