@@ -2104,7 +2104,7 @@ var projectData = {
 					"yaw": 0.6326062986388621,
 					"pitch": 0.13376521669096597,
 					"rotation": 4.71238898038469,
-					"target": "7-31-jb400",
+					"target": "32-jb400",
 					"text": "Go to Journey Building Kitchen"
 				},
 				{
