@@ -1907,9 +1907,9 @@ var projectData = {
 				{
 					"id": "to-jbkitchen",
 					"type": "link",
-					"yaw": -0.0027037606003865733,
+					"yaw": .8,
 					"pitch": 0.033329497207959875,
-					"rotation": 1.57,
+					"rotation": 0,
 					"target": "36-jbkitchen",
 					"text": "Go to Journey Building Kitchen"
 				},
@@ -2020,7 +2020,7 @@ var projectData = {
 					"type": "link",
 					"yaw": 2.3852729988617956,
 					"pitch": 0.18407070022738736,
-					"rotation": 3.14,
+					"rotation": 1.54,
 					"target": "32-jb400",
 					"text": "Go to Journey Building Room 400"
 				}
