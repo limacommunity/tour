@@ -616,6 +616,24 @@ var projectData = {
 					"rotation": 3.5,
 					"target": "5-lobby",
 					"text": "Go to Lobby"
+				},
+				{
+					"id": "to-axis-lobby-from-welcome-center",
+					"type": "link",
+					"yaw": -0.070462596767340457,
+					"pitch": -1,
+					"rotation": 3,
+					"target": "26-axis-lobby",
+					"text": "Go to AXIS Building Lobby"
+				},
+				{
+					"id": "to-journey-building-from-welcome-center",
+					"type": "link",
+					"yaw": -0.050462596767340457,
+					"pitch": -1,
+					"rotation": 3,
+					"target": "31-journey-building-exterior",
+					"text": "Go to Journey Building"
 				}
 			],
             "infoHotspots": [
