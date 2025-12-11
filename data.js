@@ -438,7 +438,7 @@ var projectData = {
 								  {
 									"videoId": "kfhCbhhjDIM",      // YouTube video ID
 									"title": "Break Every Chain",      // Display name
-									"start": 2370,                     // Optional: start time (seconds)
+									"start": 2380,                     // Optional: start time (seconds)
 									"end": 2795                       // Optional: end time (seconds)
 								  },
 								  {
