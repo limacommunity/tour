@@ -1497,7 +1497,6 @@ var projectData = {
           "name": "AXIS Building",
           "collapsed": true,
           "scenes": [
-		  
 		  {
             "id": "26-axis-lobby",
             "name": "AXIS Lobby",
@@ -1572,6 +1571,48 @@ var projectData = {
 					"target": "27-axis-venue",
 					"text": "Go to AXIS Venue"
 				}		
+            ],
+            "infoHotspots": [
+            ]
+		  },
+		  {
+            "id": "27-axis-venue",
+            "name": "AXIS Venue",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"pitch": 0,
+				"yaw": 0,
+				"fov": 1.5707963267948966
+            },
+            "hotspots": [
+                {
+					"id": "to-axis-lobby-from-axis-venue",
+					"type": "link",
+					"yaw": 0.02136969250052978,
+					"pitch": 0.510885899113525,
+					"rotation": 1.5707963267948966,
+					"target": "26-axis-lobby",
+					"text": "Go to AXIS Venue"
+				}	
             ],
             "infoHotspots": [
             ]
