@@ -1528,6 +1528,8 @@ var projectData = {
             },
             "hotspots": [
                 {
+					"id": "to-axis-cafe2",
+					"type": "link",
 					"yaw": -0.4302371642353897,
 					"pitch": 0.1974509920404266,
 					"rotation": 0,
@@ -1535,6 +1537,8 @@ var projectData = {
 					"text": "Go to AXIS Cafe2"
 				},
 				{
+					"id": "to-axis-game-room-2",
+					"type": "link",
 					"yaw": 0.4377334056592268,
 					"pitch": 0.2538075754841458,
 					"rotation": 0,
@@ -1542,6 +1546,8 @@ var projectData = {
 					"text": "Go to AXIS Game Room2"
 				},
 				{
+					"id": "to-axis-cafe",
+					"type": "link",
 					"yaw": 0.9505944768735493,
 					"pitch": 0.23223894970148962,
 					"rotation": 1.5707963267948966,
@@ -1549,6 +1555,8 @@ var projectData = {
 					"text": "Go to AXIS Cafe"
 				},
 				{
+					"id": "to-axis-gym",
+					"type": "link",
 					"yaw": 2.077173622846505,
 					"pitch": 0.24174488469613742,
 					"rotation": 1.5707963267948966,
@@ -1556,6 +1564,8 @@ var projectData = {
 					"text": "Go to AXIS Gym"
 				},
 				{
+					"id": "to-axis-venue",
+					"type": "link",
 					"yaw": -2.6546222341967187,
 					"pitch": 0.3244235944064702,
 					"rotation": 6.283185307179586,
@@ -1606,6 +1616,8 @@ var projectData = {
             },
             "hotspots": [
                 {
+					"id": "to-journey-building",
+					"type": "link",
 					"yaw": -0.4302371642353897,
 					"pitch": 0.1974509920404266,
 					"rotation": 0,
@@ -1613,6 +1625,8 @@ var projectData = {
 					"text": "Go inside Journey Building"
 				},
 				{
+					"id": "to-lobby-in-main-building",
+					"type": "link",
 					"yaw": 0.4377334056592268,
 					"pitch": 0.2538075754841458,
 					"rotation": 0,
@@ -1620,6 +1634,8 @@ var projectData = {
 					"text": "Go to Lobby in Main Building"
 				},
 				{
+					"id": "to-axis-lobby",
+					"type": "link",
 					"yaw": 0.9505944768735493,
 					"pitch": 0.23223894970148962,
 					"rotation": 1.5707963267948966,
