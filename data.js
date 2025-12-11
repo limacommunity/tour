@@ -1810,31 +1810,22 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-journey-building",
-					"type": "link",
-					"yaw": -0.4302371642353897,
-					"pitch": 0.1974509920404266,
-					"rotation": 0,
-					"target": "30-axis-cafe",
-					"text": "Go inside Journey Building"
-				},
-				{
-					"id": "to-lobby-in-main-building",
+					"id": "to-jb400",
 					"type": "link",
 					"yaw": 0.4377334056592268,
 					"pitch": 0.2538075754841458,
 					"rotation": 0,
-					"target": "29-axis-game-room",
-					"text": "Go to Lobby in Main Building"
+					"target": "32-jb400",
+					"text": "Go inside Journey Building"
 				},
 				{
-					"id": "to-axis-lobby",
+					"id": "to-lobby-from-journey-building",
 					"type": "link",
 					"yaw": 0.9505944768735493,
 					"pitch": 0.23223894970148962,
 					"rotation": 1.5707963267948966,
-					"target": "26-axis-lobby",
-					"text": "Go to AXIS Lobby"
+					"target": "5-lobby",
+					"text": "Go to Lobby in Main Building"
 				},
             ],
             "infoHotspots": [
