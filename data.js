@@ -1827,6 +1827,101 @@ var projectData = {
 					"target": "5-lobby",
 					"text": "Go to Lobby in Main Building"
 				},
+				{
+					"id": "to-lobby-from-journey-building2",
+					"type": "link",
+					"yaw": 2.529601809424374,
+					"pitch": 0.19556167470298824,
+					"rotation": 0,
+					"target": "5-lobby",
+					"text": "Go to Lobby in Main Building"
+				},
+				{
+					"id": "to-axis-lobby-from-journey-building",
+					"type": "link",
+					"yaw": -2.607122898505912,
+					"pitch": 0.01372336364513771,
+					"rotation": 0,
+					"target": "26-axis-lobby"
+				}
+            ],
+            "infoHotspots": [
+            ]
+		  },
+		  {
+            "id": "32-jb400",
+            "name": "Journey Building - Room JB400",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"yaw": 0,
+				"pitch": 0,
+				"fov": 1.5091423593016802
+            },
+            "hotspots": [
+                {
+					"id": "to-jb401",
+					"type": "link",
+				    "yaw": -0.14402808224487273,
+					"pitch": 0.5648264260301836,
+					"rotation": 4.71238898038469,
+					"target": "33-jb401",
+					"text": "To Journey Building Room 401"
+				},
+				{
+					"id": "to-jb402",
+					"type": "link",
+					"yaw": -0.17291534954047094,
+					"pitch": 0.05251114498443599,
+					"rotation": 0,
+					"target": "34-jb402",
+					"text": "Go to Journey Building Room 402"
+				},
+				{
+					"id": "to-jb403",
+					"type": "link",
+					"yaw": -0.0027037606003865733,
+					"pitch": 0.053329497207959875,
+					"rotation": 0,
+					"target": "35-jb403",
+					"text": "Go to Journey Building Room 403"
+				},
+				{
+					"id": "to-jbkitchen",
+					"type": "link",
+					"yaw": -0.0027037606003865733,
+					"pitch": 0.033329497207959875,
+					"rotation": 1.57,
+					"target": "36-jbkitchen",
+					"text": "Go to Journey Building Kitchen"
+				},
+				{
+					"id": "to-jb-exterior-from-jb400",
+					"type": "link",
+					"yaw": 0.5237331142367712,
+					"pitch": 0.5169826091903875,
+					"rotation": 3.141592653589793,
+					"target": "31-journeybuildingexterior",
+					"text": "Go to exterior of Journey Building"
+				}
             ],
             "infoHotspots": [
             ]
