@@ -1569,6 +1569,70 @@ var projectData = {
 		  
 		  ]
 		},
+		{
+		  "type": "group",
+          "id": "31-journey-building-group",
+          "name": "Journey Building",
+          "collapsed": true,
+          "scenes": [
+		  
+		  {
+            "id": "31-journey-building-exterior",
+            "name": "Journey Building",
+            "levels": [
+                {
+                    "tileSize": 256,
+                    "size": 256,
+                    "fallbackOnly": true
+                },
+                {
+                    "tileSize": 512,
+                    "size": 512
+                },
+                {
+                    "tileSize": 512,
+                    "size": 1024
+                },
+                {
+                    "tileSize": 512,
+                    "size": 2048
+                }
+            ],
+              "faceSize": 1472,
+			  "initialViewParameters": {
+				"yaw": 0,
+				"pitch": 0,
+				"fov": 1.5091423593016802
+            },
+            "hotspots": [
+                {
+					"yaw": -0.4302371642353897,
+					"pitch": 0.1974509920404266,
+					"rotation": 0,
+					"target": "30-axis-cafe",
+					"text": "Go inside Journey Building"
+				},
+				{
+					"yaw": 0.4377334056592268,
+					"pitch": 0.2538075754841458,
+					"rotation": 0,
+					"target": "29-axis-game-room",
+					"text": "Go to Lobby in Main Building"
+				},
+				{
+					"yaw": 0.9505944768735493,
+					"pitch": 0.23223894970148962,
+					"rotation": 1.5707963267948966,
+					"target": "26-axis-lobby",
+					"text": "Go to AXIS Lobby"
+				},
+            ],
+            "infoHotspots": [
+            ]
+		  },
+		  
+		  ]
+		},
         {
 		  type: 'link-group',
 		  id: 'link-group-next-steps',
