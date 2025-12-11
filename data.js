@@ -2013,7 +2013,7 @@ var projectData = {
 					"pitch": 0.35161152777209104,
 					"rotation": 2.356194490192345,
 					"target": "32-jb400",
-					"text": "Go to Journey Building Room 400
+					"text": "Go to Journey Building Room 400"
 				},
 				{
 					"id": "to-jb400-from-jb402b",
