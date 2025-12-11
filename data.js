@@ -2021,7 +2021,8 @@ var projectData = {
 					"yaw": 2.3852729988617956,
 					"pitch": 0.18407070022738736,
 					"rotation": 3.14,
-					"target": "32-jb400"
+					"target": "32-jb400",
+					"text": "Go to Journey Building Room 400"
 				}
             ],
             "infoHotspots": [
