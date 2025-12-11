@@ -1531,31 +1531,36 @@ var projectData = {
 					"yaw": -0.4302371642353897,
 					"pitch": 0.1974509920404266,
 					"rotation": 0,
-					"target": "30-axis-cafe"
+					"target": "30-axis-cafe",
+					"text": "Go to AXIS Cafe2"
 				},
 				{
 					"yaw": 0.4377334056592268,
 					"pitch": 0.2538075754841458,
 					"rotation": 0,
-					"target": "29-axis-game-room"
+					"target": "29-axis-game-room",
+					"text": "Go to AXIS Game Room2"
 				},
 				{
 					"yaw": 0.9505944768735493,
 					"pitch": 0.23223894970148962,
 					"rotation": 1.5707963267948966,
-					"target": "30-axis-cafe"
+					"target": "30-axis-cafe",
+					"text": "Go to AXIS Cafe"
 				},
 				{
 					"yaw": 2.077173622846505,
 					"pitch": 0.24174488469613742,
 					"rotation": 1.5707963267948966,
-					"target": "28-axis-gym"
+					"target": "28-axis-gym",
+					"text": "Go to AXIS Gym"
 				},
 				{
 					"yaw": -2.6546222341967187,
 					"pitch": 0.3244235944064702,
 					"rotation": 6.283185307179586,
-					"target": "27-axis-venue"
+					"target": "27-axis-venue",
+					"text": "Go to AXIS Venue"
 				}		
             ],
             "infoHotspots": [
