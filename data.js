@@ -2007,22 +2007,21 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-jb401",
+					"id": "to-jb400-from-jb402",
 					"type": "link",
-				    "yaw": 0.8990443322524015,
-					"pitch": 0.2976799765009126,
-					"rotation": 0,
+				    "yaw": 0.8196557361180421,
+					"pitch": 0.35161152777209104,
+					"rotation": 2.356194490192345,
 					"target": "32-jb400",
-					"text": "Go to Journey Building Room 400"
+					"text": "Go to Journey Building Room 400
 				},
 				{
-					"id": "to-jb401b",
+					"id": "to-jb400-from-jb402b",
 					"type": "link",
-					"yaw": -0.5140325128159837,
-					"pitch": 0.06938638398686159,
+					"yaw": 2.3852729988617956,
+					"pitch": 0.18407070022738736,
 					"rotation": 0.7853981633974483,
-					"target": "32-jb400",
-					"text":  "Go to Journey Building Room 400"
+					"target": "32-jb400"
 				}
             ],
             "infoHotspots": [
@@ -2058,22 +2057,12 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-jb401",
+					"id": "to-jb400-from-jb403",
 					"type": "link",
-				    "yaw": 0.8990443322524015,
-					"pitch": 0.2976799765009126,
+				    "yaw": -0.24047186044714053,
+					"pitch": 0.13832538235241643,
 					"rotation": 0,
-					"target": "32-jb400",
-					"text": "Go to Journey Building Room 400"
-				},
-				{
-					"id": "to-jb401b",
-					"type": "link",
-					"yaw": -0.5140325128159837,
-					"pitch": 0.06938638398686159,
-					"rotation": 0.7853981633974483,
-					"target": "32-jb400",
-					"text":  "Go to Journey Building Room 400"
+					"target": "32-jb400"
 				}
             ],
             "infoHotspots": [
@@ -2109,22 +2098,22 @@ var projectData = {
             },
             "hotspots": [
                 {
-					"id": "to-jb401",
+					"id": "to-jb400-from-kitchen",
 					"type": "link",
-				    "yaw": 0.8990443322524015,
-					"pitch": 0.2976799765009126,
-					"rotation": 0,
-					"target": "32-jb400",
-					"text": "Go to Journey Building Room 400"
+					"yaw": 0.6326062986388621,
+					"pitch": 0.13376521669096597,
+					"rotation": 4.71238898038469,
+					"target": "7-31-jb400",
+					"text": "Go to Journey Building Kitchen"
 				},
 				{
-					"id": "to-jb401b",
+					"id": "to-jb400-from-kitchen2",
 					"type": "link",
-					"yaw": -0.5140325128159837,
-					"pitch": 0.06938638398686159,
-					"rotation": 0.7853981633974483,
+					"yaw": -1.0265634907449055,
+					"pitch": 0.27145530094650105,
+					"rotation": 0,
 					"target": "32-jb400",
-					"text":  "Go to Journey Building Room 400"
+					"text": "Go to Journey Building Kitchen"
 				}
             ],
             "infoHotspots": [
