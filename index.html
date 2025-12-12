@@ -219,6 +219,12 @@
       z-index: 1000;
       max-height: calc(100vh - 60px);
       overflow-y: auto;
+      transform: translateX(0);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .scene-nav.hidden {
+      transform: translateX(-100%);
     }
     
     .scene-nav::-webkit-scrollbar {
@@ -1489,16 +1495,19 @@
   }
 
   function showSceneList() {
+    sceneListElement.classList.remove('hidden');
     sceneListElement.classList.add('enabled');
     sceneListToggleElement.classList.add('enabled');
   }
 
   function hideSceneList() {
+    sceneListElement.classList.add('hidden');
     sceneListElement.classList.remove('enabled');
     sceneListToggleElement.classList.remove('enabled');
   }
 
   function toggleSceneList() {
+    sceneListElement.classList.toggle('hidden');
     sceneListElement.classList.toggle('enabled');
     sceneListToggleElement.classList.toggle('enabled');
   }
