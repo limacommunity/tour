@@ -2105,7 +2105,7 @@ var projectData = {
 					"pitch": 0.13376521669096597,
 					"rotation": 4.71238898038469,
 					"target": "32-jb400",
-					"text": "Go to Journey Building Kitchen"
+					"text": "Go to Journey Building Room 400"
 				},
 				{
 					"id": "to-jb400-from-kitchen2",
@@ -2114,7 +2114,7 @@ var projectData = {
 					"pitch": 0.27145530094650105,
 					"rotation": 0,
 					"target": "32-jb400",
-					"text": "Go to Journey Building Kitchen"
+					"text": "Go to Journey Building Room 400"
 				}
             ],
             "infoHotspots": [
