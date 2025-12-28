@@ -216,7 +216,7 @@
     sceneListToggleElement.classList.add('enabled');
   }
 
-  function hideSceneList() {
+  function hideList() {
     sceneListElement.classList.remove('enabled');
     sceneListToggleElement.classList.remove('enabled');
   }
