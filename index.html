@@ -1724,6 +1724,14 @@
 	
   // Display the initial scene.
   switchScene([0]);
+  
+  var isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    document.body.classList.add('scenes-collapsed');
+	hideSceneList();
+  }
+
 	
   </script>
 </body>
